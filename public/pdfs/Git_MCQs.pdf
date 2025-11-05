@@ -1,0 +1,2938 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+2 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+3 0 obj
+<< /Length 1969 >>
+stream
+BT
+1 0 0 1 54 732 Tm
+26 TL
+/F2 20 Tf
+(GIT) Tj
+18 TL
+T*
+/F1 11 Tf
+(--------------------------------------------------------------------------------) Tj
+12 TL
+T*
+( ) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(1. Which command initializes a new Git repository?) Tj
+16 TL
+T*
+/F1 11 Tf
+(   A. git start) Tj
+T*
+(   B. git init) Tj
+T*
+(   C. git create) Tj
+T*
+(   D. git new) Tj
+T*
+/F2 11 Tf
+(   Answer: B) Tj
+T*
+/F1 11 Tf
+(   Explanation: `git init` creates a new `.git` directory in the current folder, preparing ) Tj
+T*
+(   it to track version control history.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(2. What does `git clone` do?) Tj
+16 TL
+T*
+/F1 11 Tf
+(   A. Create a duplicate branch) Tj
+T*
+(   B. Copy remote repository to local machine) Tj
+T*
+(   C. Duplicate commit) Tj
+T*
+(   D. Clone stash) Tj
+T*
+/F2 11 Tf
+(   Answer: B) Tj
+T*
+/F1 11 Tf
+(   Explanation: `git clone` downloads an entire repository \(history and working tree\) from a) Tj
+T*
+(    remote source to your local environment.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(3. Which command stages all modified files for commit?) Tj
+16 TL
+T*
+/F1 11 Tf
+(   A. git add .) Tj
+T*
+(   B. git commit -a) Tj
+T*
+(   C. git stage --all) Tj
+T*
+(   D. git push) Tj
+T*
+/F2 11 Tf
+(   Answer: A) Tj
+T*
+/F1 11 Tf
+(   Explanation: `git add .` stages tracked and new files in the current directory and below,) Tj
+T*
+(    preparing them for the next commit.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(4. How do you view commit history?) Tj
+16 TL
+T*
+/F1 11 Tf
+(   A. git history) Tj
+T*
+(   B. git log) Tj
+T*
+(   C. git commits) Tj
+T*
+(   D. git reflog) Tj
+T*
+/F2 11 Tf
+(   Answer: B) Tj
+T*
+/F1 11 Tf
+(   Explanation: `git log` lists commits in reverse chronological order, showing hashes, ) Tj
+T*
+(   authors, dates, and messages.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(5. What does `git status` display?) Tj
+16 TL
+T*
+/F1 11 Tf
+(   A. Current branch, staged and unstaged changes) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 478 32.0 Tm
+(Page 1 of 22) Tj
+ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 47 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Length 2254 >>
+stream
+BT
+1 0 0 1 54 732 Tm
+16 TL
+/F1 11 Tf
+(   B. Remote repository status) Tj
+T*
+(   C. Commit history) Tj
+T*
+(   D. Branch history) Tj
+T*
+/F2 11 Tf
+(   Answer: A) Tj
+T*
+/F1 11 Tf
+(   Explanation: `git status` summarizes the working tree state, showing staged files, ) Tj
+T*
+(   unstaged changes, and untracked files.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(6. Which command creates a new branch called feature?) Tj
+16 TL
+T*
+/F1 11 Tf
+(   A. git branch feature) Tj
+T*
+(   B. git create branch feature) Tj
+T*
+(   C. git checkout feature) Tj
+T*
+(   D. git branch -n feature) Tj
+T*
+/F2 11 Tf
+(   Answer: A) Tj
+T*
+/F1 11 Tf
+(   Explanation: `git branch feature` creates the branch without switching to it, allowing ) Tj
+T*
+(   you to begin development on a new line.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(7. How do you switch to an existing branch named dev?) Tj
+16 TL
+T*
+/F1 11 Tf
+(   A. git switch dev) Tj
+T*
+(   B. git checkout dev) Tj
+T*
+(   C. Both A and B \(Git 2.23+ supports switch\)) Tj
+T*
+(   D. git change dev) Tj
+T*
+/F2 11 Tf
+(   Answer: C) Tj
+T*
+/F1 11 Tf
+(   Explanation: Older versions use `git checkout` while newer Git versions introduced `git ) Tj
+T*
+(   switch` as a clearer alternative for branch changes.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(8. What does `git merge feature` do?) Tj
+16 TL
+T*
+/F1 11 Tf
+(   A. Merges feature branch into current branch) Tj
+T*
+(   B. Deletes feature branch) Tj
+T*
+(   C. Rebase branch) Tj
+T*
+(   D. Clone feature) Tj
+T*
+/F2 11 Tf
+(   Answer: A) Tj
+T*
+/F1 11 Tf
+(   Explanation: `git merge feature` integrates changes from the `feature` branch into the ) Tj
+T*
+(   branch you currently have checked out.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(9. Which command discards local changes permanently \(unstaged\)?) Tj
+16 TL
+T*
+/F1 11 Tf
+(   A. git checkout -- file) Tj
+T*
+(   B. git restore file) Tj
+T*
+(   C. git reset --hard) Tj
+T*
+(   D. Options A and B \(new command\) revert modifications in working tree) Tj
+T*
+/F2 11 Tf
+(   Answer: D) Tj
+T*
+/F1 11 Tf
+(   Explanation: `git checkout -- file` \(legacy\) and `git restore file` \(new\) both revert ) Tj
+T*
+(   file changes back to the last committed state without touching staging.) Tj
+10 TL
+T*
+( ) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 478 32.0 Tm
+(Page 2 of 22) Tj
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 47 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Length 2079 >>
+stream
+BT
+1 0 0 1 54 732 Tm
+18 TL
+/F2 12 Tf
+(10. What does `git commit -m "message"` do?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Commits staged changes with message) Tj
+T*
+(    B. Commits all changes automatically) Tj
+T*
+(    C. Commits only tracked files) Tj
+T*
+(    D. Pushes commits) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Commits capture staged changes and attach a message describing the change, ) Tj
+T*
+(    forming a new snapshot in history.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(11. How do you add a remote repository named origin?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. git remote add origin <url>) Tj
+T*
+(    B. git add remote origin <url>) Tj
+T*
+(    C. git remote origin <url>) Tj
+T*
+(    D. git clone origin <url>) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: `git remote add origin URL` defines a remote repository named origin so you) Tj
+T*
+(     can fetch and push to it.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(12. Which command uploads local commits to remote?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. git push) Tj
+T*
+(    B. git upload) Tj
+T*
+(    C. git publish) Tj
+T*
+(    D. git sync) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: `git push` sends local commits from your branch to its remote-tracking ) Tj
+T*
+(    branch, updating the remote repository.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(13. What does `git pull` perform by default?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Fetch then merge from remote tracking branch) Tj
+T*
+(    B. Fetch only) Tj
+T*
+(    C. Merge only) Tj
+T*
+(    D. Rebase only) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: `git pull` equals `git fetch` followed by `git merge` of the remote branch ) Tj
+T*
+(    into your current branch unless configured otherwise.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(14. How do you fetch remote updates without merging?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. git fetch) Tj
+T*
+(    B. git pull --no-merge) Tj
+T*
+(    C. git update) Tj
+T*
+(    D. git sync remote) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 478 32.0 Tm
+(Page 3 of 22) Tj
+ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 47 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 7 0 R >>
+endobj
+9 0 obj
+<< /Length 2213 >>
+stream
+BT
+1 0 0 1 54 732 Tm
+16 TL
+/F1 11 Tf
+(    Explanation: `git fetch` downloads new commits and references from remotes without ) Tj
+T*
+(    integrating them into local branches.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(15. Which command shows differences between working tree and staging area?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. git diff) Tj
+T*
+(    B. git diff --staged) Tj
+T*
+(    C. git status) Tj
+T*
+(    D. git compare) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: By default `git diff` compares the working directory against the index ) Tj
+T*
+(    \(staging area\), highlighting unstaged changes.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(16. How do you view differences between staged changes and last commit?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. git diff --cached) Tj
+T*
+(    B. git diff --staged) Tj
+T*
+(    C. Both A and B \(aliases\)) Tj
+T*
+(    D. git diff HEAD) Tj
+T*
+/F2 11 Tf
+(    Answer: C) Tj
+T*
+/F1 11 Tf
+(    Explanation: Both flags show the diff between the index and the last commit \(HEAD\), ) Tj
+T*
+(    previewing what will be committed.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(17. What does `git reset HEAD file` do?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Unstage file while keeping working tree changes) Tj
+T*
+(    B. Remove file) Tj
+T*
+(    C. Delete commit) Tj
+T*
+(    D. Reset branch) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: `git reset HEAD file` moves the file out of the index, so changes remain in) Tj
+T*
+(     the working directory but are no longer staged.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(18. Which command amends the last commit message?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. git commit --amend) Tj
+T*
+(    B. git amend) Tj
+T*
+(    C. git fix commit) Tj
+T*
+(    D. git change commit) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: `git commit --amend` opens the last commit for editing, allowing you to ) Tj
+T*
+(    alter the message and staged content.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(19. What is the effect of `git stash`?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Save working directory and index state for later use) Tj
+T*
+(    B. Delete branch) Tj
+T*
+(    C. Merge changes) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 478 32.0 Tm
+(Page 4 of 22) Tj
+ET
+endstream
+endobj
+10 0 obj
+<< /Type /Page /Parent 47 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 9 0 R >>
+endobj
+11 0 obj
+<< /Length 2101 >>
+stream
+BT
+1 0 0 1 54 732 Tm
+16 TL
+/F1 11 Tf
+(    D. Create tag) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Stashing stores dirty working state on a stack so you can revert to a clean) Tj
+T*
+(     state and reapply changes later.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(20. How do you apply the most recent stash and keep it?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. git stash apply) Tj
+T*
+(    B. git stash pop) Tj
+T*
+(    C. git stash drop) Tj
+T*
+(    D. git stash show) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: `git stash apply` applies stash contents but retains the stash entry; `pop`) Tj
+T*
+(     applies and removes it.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(21. Which command lists available stashes?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. git stash list) Tj
+T*
+(    B. git stash show) Tj
+T*
+(    C. git stash log) Tj
+T*
+(    D. git list stash) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: `git stash list` shows stash entries, each with an index and description ) Tj
+T*
+(    for reference.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(22. What does `git tag -a v1.0 -m "release"` create?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Annotated tag named v1.0) Tj
+T*
+(    B. Lightweight tag) Tj
+T*
+(    C. Branch) Tj
+T*
+(    D. Release branch) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: `-a` creates an annotated tag with metadata and message, stored as a full ) Tj
+T*
+(    object in Git history.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(23. How do you delete a local branch named feature after merge?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. git branch -d feature) Tj
+T*
+(    B. git branch --delete feature) Tj
+T*
+(    C. Both A and B) Tj
+T*
+(    D. git delete branch feature) Tj
+T*
+/F2 11 Tf
+(    Answer: C) Tj
+T*
+/F1 11 Tf
+(    Explanation: `git branch -d` \(or `--delete`\) removes a local branch, warning if unmerged) Tj
+T*
+(     commits remain.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(24. Which command removes a remote branch?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. git push origin --delete feature) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 478 32.0 Tm
+(Page 5 of 22) Tj
+ET
+endstream
+endobj
+12 0 obj
+<< /Type /Page /Parent 47 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 11 0 R >>
+endobj
+13 0 obj
+<< /Length 2232 >>
+stream
+BT
+1 0 0 1 54 732 Tm
+16 TL
+/F1 11 Tf
+(    B. git delete origin feature) Tj
+T*
+(    C. git branch -dr origin/feature) Tj
+T*
+(    D. Both A and C \(C removes tracking reference\)) Tj
+T*
+/F2 11 Tf
+(    Answer: D) Tj
+T*
+/F1 11 Tf
+(    Explanation: `git push origin --delete` deletes the remote branch; `git branch -dr` ) Tj
+T*
+(    removes the local remote-tracking reference.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(25. What is the default name for initial branch in newer Git versions?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. master) Tj
+T*
+(    B. main) Tj
+T*
+(    C. trunk) Tj
+T*
+(    D. default) Tj
+T*
+/F2 11 Tf
+(    Answer: B) Tj
+T*
+/F1 11 Tf
+(    Explanation: Many setups now default to `main`, though configuration or environment may ) Tj
+T*
+(    still use `master` unless changed.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(26. Which command sets email globally?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. git config --global user.email "you@example.com") Tj
+T*
+(    B. git set email) Tj
+T*
+(    C. git username email) Tj
+T*
+(    D. git email config) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Setting `user.email` globally applies to all repositories the user commits ) Tj
+T*
+(    to, embedding the address in commit metadata.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(27. How do you configure Git to use rebase on pull?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. git config --global pull.rebase true) Tj
+T*
+(    B. git pull --rebase-only) Tj
+T*
+(    C. git rebase pull true) Tj
+T*
+(    D. git config pull rebase yes) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Configuring `pull.rebase` ensures `git pull` uses rebase instead of merge ) Tj
+T*
+(    by default, keeping history linear.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(28. What does `git cherry-pick <commit>` do?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Apply changes introduced by specific commit onto current branch) Tj
+T*
+(    B. Delete commit) Tj
+T*
+(    C. Rebase entire branch) Tj
+T*
+(    D. Merge branch) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Cherry-picking duplicates the changes from a commit onto the current ) Tj
+T*
+(    branch, useful for selective merging.) Tj
+10 TL
+T*
+( ) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 478 32.0 Tm
+(Page 6 of 22) Tj
+ET
+endstream
+endobj
+14 0 obj
+<< /Type /Page /Parent 47 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 13 0 R >>
+endobj
+15 0 obj
+<< /Length 1994 >>
+stream
+BT
+1 0 0 1 54 732 Tm
+18 TL
+/F2 12 Tf
+(29. Which command displays all branches including remote?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. git branch -a) Tj
+T*
+(    B. git branch -r) Tj
+T*
+(    C. Both \(A includes local & remote\)) Tj
+T*
+(    D. git branches) Tj
+T*
+/F2 11 Tf
+(    Answer: C) Tj
+T*
+/F1 11 Tf
+(    Explanation: `git branch -a` lists both local and remote-tracking branches; `-r` lists ) Tj
+T*
+(    remote only.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(30. How do you rename current branch to dev?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. git branch -m dev) Tj
+T*
+(    B. git rename dev) Tj
+T*
+(    C. git move dev) Tj
+T*
+(    D. git checkout -b dev) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: `git branch -m new-name` renames the current branch; `checkout -b` creates ) Tj
+T*
+(    a new branch rather than renaming.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(31. What does `git revert <commit>` achieve?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Create new commit that undoes specified commit) Tj
+T*
+(    B. Delete commit history) Tj
+T*
+(    C. Reset HEAD) Tj
+T*
+(    D. Reapply commit) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Reverting records a new commit that reverses changes, preserving history ) Tj
+T*
+(    without rewriting it.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(32. Which command shows commits affecting a file?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. git log -- file) Tj
+T*
+(    B. git blame file) Tj
+T*
+(    C. git history file) Tj
+T*
+(    D. git show file) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: `git log -- <file>` filters commits that touched a file, useful for ) Tj
+T*
+(    tracking modifications.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(33. How do you view who last modified each line?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. git blame file) Tj
+T*
+(    B. git annotate file) Tj
+T*
+(    C. Both A and B \(aliases\)) Tj
+T*
+(    D. git history file) Tj
+T*
+/F2 11 Tf
+(    Answer: C) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 478 32.0 Tm
+(Page 7 of 22) Tj
+ET
+endstream
+endobj
+16 0 obj
+<< /Type /Page /Parent 47 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 15 0 R >>
+endobj
+17 0 obj
+<< /Length 2205 >>
+stream
+BT
+1 0 0 1 54 732 Tm
+16 TL
+/F1 11 Tf
+(    Explanation: `git blame` \(and alias `annotate`\) outputs line-by-line attribution, ) Tj
+T*
+(    showing commit hashes and authors.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(34. What does `git remote -v` list?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Remote names with fetch/push URLs) Tj
+T*
+(    B. Remote branches) Tj
+T*
+(    C. Tags) Tj
+T*
+(    D. Submodules) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: `git remote -v` prints configured remotes along with their fetch and push ) Tj
+T*
+(    URLs, helping verify connections.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(35. Which command updates submodules to latest commit on tracked branch?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. git submodule update --remote) Tj
+T*
+(    B. git submodule sync) Tj
+T*
+(    C. git submodule init) Tj
+T*
+(    D. git submodule pull) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: `git submodule update --remote` fetches upstream changes for submodules and) Tj
+T*
+(     updates them to the referenced branch commits.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(36. How do you stage part of a file?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. git add -p file) Tj
+T*
+(    B. git add --patch file) Tj
+T*
+(    C. Both) Tj
+T*
+(    D. git add --partial file) Tj
+T*
+/F2 11 Tf
+(    Answer: C) Tj
+T*
+/F1 11 Tf
+(    Explanation: Patch mode interactively selects hunks to stage, enabling fine-grained ) Tj
+T*
+(    commits; `-p` is shorthand for `--patch`.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(37. What is the purpose of `.gitignore`?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Specify files to be ignored by Git) Tj
+T*
+(    B. Delete files) Tj
+T*
+(    C. Track ignored files) Tj
+T*
+(    D. Force add files) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: `.gitignore` lists patterns for files Git should ignore, preventing them ) Tj
+T*
+(    from being tracked or accidentally committed.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(38. Which command shows remote-tracking branch references?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. git branch -vv) Tj
+T*
+(    B. git remote show origin) Tj
+T*
+(    C. Both \(A displays upstream branches\)) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 478 32.0 Tm
+(Page 8 of 22) Tj
+ET
+endstream
+endobj
+18 0 obj
+<< /Type /Page /Parent 47 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 17 0 R >>
+endobj
+19 0 obj
+<< /Length 2237 >>
+stream
+BT
+1 0 0 1 54 732 Tm
+16 TL
+/F1 11 Tf
+(    D. git status -r) Tj
+T*
+/F2 11 Tf
+(    Answer: C) Tj
+T*
+/F1 11 Tf
+(    Explanation: `git branch -vv` shows local branches and their upstream; `git remote show ) Tj
+T*
+(    origin` lists fetch/push branches and tracking status.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(39. What does `git reflog` display?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. History of HEAD moves and branch updates) Tj
+T*
+(    B. Remote logs) Tj
+T*
+(    C. Tag history) Tj
+T*
+(    D. Merge logs) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: The reflog records reference updates, enabling recovery of commits even ) Tj
+T*
+(    after branch deletions or resets.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(40. How do you create a signed commit?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. git commit -S -m "message") Tj
+T*
+(    B. git commit --sign) Tj
+T*
+(    C. git commit -sign) Tj
+T*
+(    D. git commit -mS) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: `-S` signs the commit with your configured GPG key, embedding a signature ) Tj
+T*
+(    to verify authenticity.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(41. Which command finds branches already merged into main?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. git branch --merged main) Tj
+T*
+(    B. git merge --list main) Tj
+T*
+(    C. git branch -m main) Tj
+T*
+(    D. git main --merged) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: `git branch --merged main` lists branches whose tips are reachable from ) Tj
+T*
+(    `main`, indicating they can be safely deleted.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(42. What does `git clean -fd` do?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Remove untracked files and directories) Tj
+T*
+(    B. Remove tracked files) Tj
+T*
+(    C. Reset repository) Tj
+T*
+(    D. Clean commit history) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: `git clean -fd` deletes untracked files \(`-f`\) and directories \(`-d`\), ) Tj
+T*
+(    useful for restoring to a clean working tree before builds.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(43. How do you configure alias for log?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. git config --global alias.lg "log --oneline --graph") Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 478 32.0 Tm
+(Page 9 of 22) Tj
+ET
+endstream
+endobj
+20 0 obj
+<< /Type /Page /Parent 47 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 19 0 R >>
+endobj
+21 0 obj
+<< /Length 2192 >>
+stream
+BT
+1 0 0 1 54 732 Tm
+16 TL
+/F1 11 Tf
+(    B. git alias log) Tj
+T*
+(    C. git log alias set) Tj
+T*
+(    D. git config alias log) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Creating Git aliases via `git config` provides shortcuts; `alias.lg` sets ) Tj
+T*
+(    `git lg` to run the specified log command.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(44. Which command sets upstream for branch to origin/dev?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. git push -u origin dev) Tj
+T*
+(    B. git branch --set-upstream-to=origin/dev) Tj
+T*
+(    C. git track origin/dev) Tj
+T*
+(    D. Both A and B) Tj
+T*
+/F2 11 Tf
+(    Answer: D) Tj
+T*
+/F1 11 Tf
+(    Explanation: Pushing with `-u` sets upstream automatically; `git branch --set-upstream-) Tj
+T*
+(    to` manually associates a branch with its remote.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(45. What is `.gitattributes` used for?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Define path-specific Git attributes like line endings) Tj
+T*
+(    B. Ignore files) Tj
+T*
+(    C. Manage hooks) Tj
+T*
+(    D. Configure users) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: `.gitattributes` controls behavior per path, such as enabling text ) Tj
+T*
+(    normalization, diff drivers, or export rules.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(46. How do you enable automatic CRLF conversion on checkout for Windows?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. git config core.autocrlf true) Tj
+T*
+(    B. git config core.autocrlf input) Tj
+T*
+(    C. git config core.crlf true) Tj
+T*
+(    D. git config core.windows true) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Setting `core.autocrlf true` converts LF to CRLF on checkout and back to LF) Tj
+T*
+(     on commit, preventing mixed line endings on Windows.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(47. Which command lists tags?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. git tag) Tj
+T*
+(    B. git tag -l) Tj
+T*
+(    C. Both) Tj
+T*
+(    D. git show tags) Tj
+T*
+/F2 11 Tf
+(    Answer: C) Tj
+T*
+/F1 11 Tf
+(    Explanation: `git tag` without arguments lists available tags; `-l` is optional for ) Tj
+T*
+(    listing with patterns.) Tj
+10 TL
+T*
+( ) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 478 32.0 Tm
+(Page 10 of 22) Tj
+ET
+endstream
+endobj
+22 0 obj
+<< /Type /Page /Parent 47 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 21 0 R >>
+endobj
+23 0 obj
+<< /Length 2132 >>
+stream
+BT
+1 0 0 1 54 732 Tm
+18 TL
+/F2 12 Tf
+(48. What does `git describe` output?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Closest tag reachable from current commit) Tj
+T*
+(    B. Repository description) Tj
+T*
+(    C. Branch description) Tj
+T*
+(    D. Commit message) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: `git describe` uses tags and distance \(number of commits\) to produce human-) Tj
+T*
+(    readable version identifiers for commits.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(49. How do you rebase current branch onto main?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. git rebase main) Tj
+T*
+(    B. git rebase origin/main) Tj
+T*
+(    C. Both depending on tracking) Tj
+T*
+(    D. git rebase --onto main) Tj
+T*
+/F2 11 Tf
+(    Answer: C) Tj
+T*
+/F1 11 Tf
+(    Explanation: Rebasing onto `main` uses your local copy; using `origin/main` rebases onto) Tj
+T*
+(     the remote-tracking branch, depending on workflow.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(50. What is the effect of `git rebase -i HEAD~3`?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Interactive rebase of last three commits) Tj
+T*
+(    B. Rebase onto HEAD) Tj
+T*
+(    C. Merge last three commits) Tj
+T*
+(    D. Delete commits) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(Explanation: Interactive rebase lets you edit, reorder, squash, or drop the last three ) Tj
+T*
+(commits via an editor before rewriting history.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(51. Which file contains per-repository configuration?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. .git/config) Tj
+T*
+(    B. ~/.gitconfig) Tj
+T*
+(    C. /etc/gitconfig) Tj
+T*
+(    D. .gitconfig.local) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Each repo stores settings in `.git/config`, overriding user ) Tj
+T*
+(    \(`~/.gitconfig`\) and system \(`/etc/gitconfig`\) configurations.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(52. How do you check for merge conflicts remaining?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. git status) Tj
+T*
+(    B. git diff --name-only --diff-filter=U) Tj
+T*
+(    C. Both) Tj
+T*
+(    D. git conflict list) Tj
+T*
+/F2 11 Tf
+(    Answer: C) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 478 32.0 Tm
+(Page 11 of 22) Tj
+ET
+endstream
+endobj
+24 0 obj
+<< /Type /Page /Parent 47 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 23 0 R >>
+endobj
+25 0 obj
+<< /Length 2326 >>
+stream
+BT
+1 0 0 1 54 732 Tm
+16 TL
+/F1 11 Tf
+(    Explanation: `git status` highlights unmerged paths; the diff command filters for files ) Tj
+T*
+(    with unresolved conflicts \(`U` status\).) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(53. What does `git ls-tree HEAD` show?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Tree objects \(files/directories\) at commit HEAD) Tj
+T*
+(    B. Branches) Tj
+T*
+(    C. Logs) Tj
+T*
+(    D. Tags) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: `git ls-tree` lists the contents of a tree object \(typically a commit\), ) Tj
+T*
+(    showing blobs and subtrees with their permissions and hashes.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(54. How can you bisect to find a bad commit?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. git bisect start; git bisect bad; git bisect good <commit>) Tj
+T*
+(    B. git findcommit) Tj
+T*
+(    C. git debug commits) Tj
+T*
+(    D. git search bug) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: `git bisect` performs binary search between known good and bad commits to ) Tj
+T*
+(    identify the first offending commit.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(55. What is the purpose of hooks in Git?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Custom scripts triggered by repository events) Tj
+T*
+(    B. Manage branches) Tj
+T*
+(    C. Configure remotes) Tj
+T*
+(    D. Track files) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Hooks \(e.g., pre-commit, post-receive\) run scripts in `.git/hooks`, ) Tj
+T*
+(    automating checks, deployments, or notifications on Git events.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(56. Which command clones repository with submodules initialized?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. git clone --recurse-submodules <url>) Tj
+T*
+(    B. git clone --submodules <url>) Tj
+T*
+(    C. git clone <url> --with-submodules) Tj
+T*
+(    D. git submodule clone <url>) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: The `--recurse-submodules` flag initializes and updates submodules after ) Tj
+T*
+(    cloning, ensuring dependencies are present.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(57. How do you view file from specific commit?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. git show <commit>:path/to/file) Tj
+T*
+(    B. git cat <commit> file) Tj
+T*
+(    C. git file show) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 478 32.0 Tm
+(Page 12 of 22) Tj
+ET
+endstream
+endobj
+26 0 obj
+<< /Type /Page /Parent 47 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 25 0 R >>
+endobj
+27 0 obj
+<< /Length 2275 >>
+stream
+BT
+1 0 0 1 54 732 Tm
+16 TL
+/F1 11 Tf
+(    D. git commit show file) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: `git show` with `<commit>:<path>` prints the file contents as of that ) Tj
+T*
+(    commit, useful for inspecting historical versions.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(58. What does `git archive` do?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Create tar/zip archive of repository tree at specified commit) Tj
+T*
+(    B. Archive commit history) Tj
+T*
+(    C. Delete repository) Tj
+T*
+(    D. Export tags) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: `git archive` produces a snapshot of the repository tree, often used to ) Tj
+T*
+(    package releases without Git metadata.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(59. How do you list local branches sorted by last commit date?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. git for-each-ref --sort=-committerdate refs/heads/) Tj
+T*
+(    B. git branch --sort=-committerdate) Tj
+T*
+(    C. Both) Tj
+T*
+(    D. git branch --date) Tj
+T*
+/F2 11 Tf
+(    Answer: C) Tj
+T*
+/F1 11 Tf
+(    Explanation: Both commands can sort branches by commit date, with `for-each-ref` ) Tj
+T*
+(    offering more formatting control.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(60. What is the effect of `git fetch --prune`?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Remove local references to deleted remote branches) Tj
+T*
+(    B. Prune local commits) Tj
+T*
+(    C. Delete tags) Tj
+T*
+(    D. Clean working tree) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: `--prune` deletes local remote-tracking branches that no longer exist on ) Tj
+T*
+(    the remote, keeping references tidy.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(61. Which command shows summary of changes in each commit?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. git log --stat) Tj
+T*
+(    B. git log --shortstat) Tj
+T*
+(    C. Both) Tj
+T*
+(    D. git log --summary only) Tj
+T*
+/F2 11 Tf
+(    Answer: C) Tj
+T*
+/F1 11 Tf
+(    Explanation: `--stat` displays file-level additions/deletions; `--shortstat` shows ) Tj
+T*
+(    aggregated counts, offering change summaries per commit.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(62. How can you create a lightweight tag?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. git tag v1.0) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 478 32.0 Tm
+(Page 13 of 22) Tj
+ET
+endstream
+endobj
+28 0 obj
+<< /Type /Page /Parent 47 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 27 0 R >>
+endobj
+29 0 obj
+<< /Length 2155 >>
+stream
+BT
+1 0 0 1 54 732 Tm
+16 TL
+/F1 11 Tf
+(    B. git tag -l v1.0) Tj
+T*
+(    C. git tag --light v1.0) Tj
+T*
+(    D. git tag -w v1.0) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Omitting `-a` or `-m` creates a lightweight tag that simply references a ) Tj
+T*
+(    commit without extra metadata.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(63. What does `HEAD` refer to?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Current commit/branch reference) Tj
+T*
+(    B. Remote repository) Tj
+T*
+(    C. Initial commit) Tj
+T*
+(    D. Latest tag) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: `HEAD` points to the current branch tip or commit checked out, representing) Tj
+T*
+(     your current position in the repository.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(64. How do you show commits not reachable from main?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. git log --oneline --graph --decorate --all --not main) Tj
+T*
+(    B. git log main..) Tj
+T*
+(    C. Both \(with proper syntax\)) Tj
+T*
+(    D. git log main only) Tj
+T*
+/F2 11 Tf
+(    Answer: C) Tj
+T*
+/F1 11 Tf
+(    Explanation: `git log main..` displays commits reachable from HEAD but not from main; ) Tj
+T*
+(    `--not main` accomplishes similar filtering.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(65. Which command merges and squashes branch?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. git merge --squash feature) Tj
+T*
+(    B. git squash feature) Tj
+T*
+(    C. git rebase --squash feature) Tj
+T*
+(    D. git merge feature --squash-only) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: `--squash` combines all branch commits into one staged change, letting you ) Tj
+T*
+(    commit a single squashed commit.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(66. What does `git shortlog -sn` provide?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Summary of commits per author) Tj
+T*
+(    B. Short commit messages) Tj
+T*
+(    C. Stash log) Tj
+T*
+(    D. Tag summary) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: `git shortlog -sn` lists contributors and number of commits, useful for ) Tj
+T*
+(    contribution statistics.) Tj
+10 TL
+T*
+( ) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 478 32.0 Tm
+(Page 14 of 22) Tj
+ET
+endstream
+endobj
+30 0 obj
+<< /Type /Page /Parent 47 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 29 0 R >>
+endobj
+31 0 obj
+<< /Length 2194 >>
+stream
+BT
+1 0 0 1 54 732 Tm
+18 TL
+/F2 12 Tf
+(67. How do you compare current branch to origin/main?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. git diff origin/main) Tj
+T*
+(    B. git log origin/main..) Tj
+T*
+(    C. git status -sb) Tj
+T*
+(    D. All useful \(A for diff, B commits ahead, C summary\)) Tj
+T*
+/F2 11 Tf
+(    Answer: D) Tj
+T*
+/F1 11 Tf
+(    Explanation: Each command provides perspective - diff shows changes, log shows commits, ) Tj
+T*
+(    and status summarises ahead/behind state.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(68. Which command reapply commits on top of another branch while preserving merges?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. git rebase --rebase-merges) Tj
+T*
+(    B. git rebase -p \(legacy\)) Tj
+T*
+(    C. Both options) Tj
+T*
+(    D. git merge --reapply) Tj
+T*
+/F2 11 Tf
+(    Answer: C) Tj
+T*
+/F1 11 Tf
+(    Explanation: `--rebase-merges` \(modern\) and `-p` \(legacy\) preserve merge commits during ) Tj
+T*
+(    rebase, maintaining branch structure.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(69. How do you edit previous commit author?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. git commit --amend --author="Name <email>") Tj
+T*
+(    B. git change author) Tj
+T*
+(    C. git config author) Tj
+T*
+(    D. git amend author) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Amending with `--author` overwrites author metadata for the last commit, ) Tj
+T*
+(    typically used to correct identity mistakes.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(70. What does `git format-patch` generate?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Email-ready patch files for commits) Tj
+T*
+(    B. Binary patch) Tj
+T*
+(    C. Merge patch) Tj
+T*
+(    D. Diff summary) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: `format-patch` outputs each commit as a patch file suitable for emailing or) Tj
+T*
+(     applying via `git am`.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(71. Which command applies patch generated by format-patch?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. git am < patch) Tj
+T*
+(    B. git apply patch) Tj
+T*
+(    C. Both \(git am for email patches, git apply for diffs\)) Tj
+T*
+(    D. git patch patch) Tj
+T*
+/F2 11 Tf
+(    Answer: C) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 478 32.0 Tm
+(Page 15 of 22) Tj
+ET
+endstream
+endobj
+32 0 obj
+<< /Type /Page /Parent 47 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 31 0 R >>
+endobj
+33 0 obj
+<< /Length 2314 >>
+stream
+BT
+1 0 0 1 54 732 Tm
+16 TL
+/F1 11 Tf
+(    Explanation: `git am` applies patches with metadata \(committer info\), while `git apply` ) Tj
+T*
+(    applies raw diffs without creating commits.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(72. How do you remove file from Git history but keep in working tree?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. git rm --cached file) Tj
+T*
+(    B. git remove file) Tj
+T*
+(    C. git delete file) Tj
+T*
+(    D. git clean file) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Removing with `--cached` untracks the file but leaves it on disk, useful ) Tj
+T*
+(    for adding to `.gitignore` afterwards.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(73. What is the purpose of `git prune`?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Remove unreachable objects from object database) Tj
+T*
+(    B. Delete branches) Tj
+T*
+(    C. Clean working tree) Tj
+T*
+(    D. Remove tags) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: `git prune` garbage-collects objects not reachable from any references, ) Tj
+T*
+(    typically run via `git gc`.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(74. Which command updates reflog expiration settings?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. git config --global gc.reflogExpire 90.days) Tj
+T*
+(    B. git reflog expire --expire=90.days) Tj
+T*
+(    C. Both options possible) Tj
+T*
+(    D. git reflog config 90) Tj
+T*
+/F2 11 Tf
+(    Answer: C) Tj
+T*
+/F1 11 Tf
+(    Explanation: Reflog expiration can be set via config or explicitly pruned with `git ) Tj
+T*
+(    reflog expire`, controlling how long reflog entries are kept.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(75. How do you list files changed in last commit?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. git show --name-only) Tj
+T*
+(    B. git diff --name-only HEAD^) Tj
+T*
+(    C. Both) Tj
+T*
+(    D. git last --files) Tj
+T*
+/F2 11 Tf
+(    Answer: C) Tj
+T*
+/F1 11 Tf
+(    Explanation: `git show --name-only HEAD` lists files touched by the commit; `git diff ) Tj
+T*
+(    --name-only HEAD^ HEAD` does the same via diff.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(76. What does `git worktree add ../repo-feature feature` do?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Create additional working tree for branch feature) Tj
+T*
+(    B. Add subtree) Tj
+T*
+(    C. Create new repository) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 478 32.0 Tm
+(Page 16 of 22) Tj
+ET
+endstream
+endobj
+34 0 obj
+<< /Type /Page /Parent 47 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 33 0 R >>
+endobj
+35 0 obj
+<< /Length 2294 >>
+stream
+BT
+1 0 0 1 54 732 Tm
+16 TL
+/F1 11 Tf
+(    D. Add remote) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Git worktrees allow multiple checkouts of a repository; this command ) Tj
+T*
+(    creates a new worktree at the given path for the specified branch.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(77. How do you perform sparse checkout?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. git sparse-checkout init; git sparse-checkout set <dirs>) Tj
+T*
+(    B. git checkout --sparse) Tj
+T*
+(    C. git clone --sparse) Tj
+T*
+(    D. git fetch --sparse) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Sparse checkout uses the `git sparse-checkout` command to enable and define) Tj
+T*
+(     the directories to populate in the working tree.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(78. Which command inspects Git object type?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. git cat-file -t <object>) Tj
+T*
+(    B. git show-type) Tj
+T*
+(    C. git object type) Tj
+T*
+(    D. git inspect object) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: `git cat-file -t` prints the type \(commit, tree, blob, tag\) of a given ) Tj
+T*
+(    object hash, aiding low-level inspection.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(79. What does `git gc` perform?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Garbage collection to optimize repository) Tj
+T*
+(    B. Git clone) Tj
+T*
+(    C. General commit) Tj
+T*
+(    D. Generate config) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: `git gc` compresses loose objects and packs the repository, freeing space ) Tj
+T*
+(    and improving performance.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(80. How do you list branches containing a specific commit?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. git branch --contains <commit>) Tj
+T*
+(    B. git log --contains branch) Tj
+T*
+(    C. git branch -c commit) Tj
+T*
+(    D. git show branch commit) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: `git branch --contains` shows branches whose history includes the commit, ) Tj
+T*
+(    indicating where the change is present.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(81. Which command sets default branch name for new repos?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. git config --global init.defaultBranch main) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 478 32.0 Tm
+(Page 17 of 22) Tj
+ET
+endstream
+endobj
+36 0 obj
+<< /Type /Page /Parent 47 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 35 0 R >>
+endobj
+37 0 obj
+<< /Length 2218 >>
+stream
+BT
+1 0 0 1 54 732 Tm
+16 TL
+/F1 11 Tf
+(    B. git init --default-branch main) Tj
+T*
+(    C. Both \(A sets default, B per repo\)) Tj
+T*
+(    D. git default branch main) Tj
+T*
+/F2 11 Tf
+(    Answer: C) Tj
+T*
+/F1 11 Tf
+(    Explanation: You can set a global default branch name or specify it per repository ) Tj
+T*
+(    during `git init`.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(82. What is the difference between `git pull --rebase` and `git pull`?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Rebase applies local commits on top of fetched branch instead of merge) Tj
+T*
+(    B. No difference) Tj
+T*
+(    C. Pull rebase fetches only) Tj
+T*
+(    D. Pull rebase deletes local commits) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: `git pull --rebase` rewrites local commits atop the fetched history, ) Tj
+T*
+(    avoiding merge commits and keeping linear history.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(83. How do you view staged changes summary?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. git diff --stat --cached) Tj
+T*
+(    B. git status --stat) Tj
+T*
+(    C. git staged --summary) Tj
+T*
+(    D. git log --staged) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: `git diff --stat --cached` summarizes file changes staged for commit, ) Tj
+T*
+(    showing lines added/removed per file.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(84. Which command clones repository with depth 1?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. git clone --depth 1 <url>) Tj
+T*
+(    B. git clone --shallow 1) Tj
+T*
+(    C. git clone --depth=1) Tj
+T*
+(    D. Both A and C) Tj
+T*
+/F2 11 Tf
+(    Answer: D) Tj
+T*
+/F1 11 Tf
+(    Explanation: `--depth` sets shallow clone depth; `--depth 1` or `--depth=1` fetch only ) Tj
+T*
+(    the latest snapshot, omitting full history.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(85. What does `git rev-parse HEAD` return?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. SHA-1 or SHA-256 of current commit) Tj
+T*
+(    B. Branch name) Tj
+T*
+(    C. Tag) Tj
+T*
+(    D. Tree object) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: `git rev-parse` resolves revision strings to hashes, with `HEAD` returning ) Tj
+T*
+(    the current commit hash.) Tj
+10 TL
+T*
+( ) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 478 32.0 Tm
+(Page 18 of 22) Tj
+ET
+endstream
+endobj
+38 0 obj
+<< /Type /Page /Parent 47 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 37 0 R >>
+endobj
+39 0 obj
+<< /Length 2244 >>
+stream
+BT
+1 0 0 1 54 732 Tm
+18 TL
+/F2 12 Tf
+(86. How do you remove tracked file from repository history entirely?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. git filter-branch --tree-filter 'rm file') Tj
+T*
+(    B. git filter-repo --path file --invert-paths) Tj
+T*
+(    C. Both options depending on tools) Tj
+T*
+(    D. git rm file) Tj
+T*
+/F2 11 Tf
+(    Answer: C) Tj
+T*
+/F1 11 Tf
+(    Explanation: History rewriting tools like `filter-branch` \(legacy\) or `filter-repo` ) Tj
+T*
+(    remove files from commits; `git rm` only removes from tip.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(87. Which command rewords commit without changing content?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. git commit --amend --no-edit \(content\), or interactive rebase reword) Tj
+T*
+(    B. git reword commit) Tj
+T*
+(    C. git change message) Tj
+T*
+(    D. git commit message) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Amending with `--no-edit` adjusts metadata; interactive rebase with ) Tj
+T*
+(    `reword` edits messages while keeping changes intact.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(88. What does `git show HEAD^` display?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Details of parent commit of HEAD) Tj
+T*
+(    B. Next commit) Tj
+T*
+(    C. Tree structure) Tj
+T*
+(    D. Merge base) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: `HEAD^` references the first parent of the current commit; `git show` ) Tj
+T*
+(    reveals its details.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(89. How do you create a bare repository?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. git init --bare) Tj
+T*
+(    B. git bare init) Tj
+T*
+(    C. git init bare) Tj
+T*
+(    D. git start --bare) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Bare repositories omit working trees, used for remotes; `git init --bare` ) Tj
+T*
+(    sets up the required directory structure.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(90. Which command lists branches sorted by commit count?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. git shortlog -sn --all --no-merges) Tj
+T*
+(    B. git for-each-ref --sort=-committerdate) Tj
+T*
+(    C. git branch --sort=-committerdate) Tj
+T*
+(    D. No direct built-in; use scripts) Tj
+T*
+/F2 11 Tf
+(    Answer: D) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 478 32.0 Tm
+(Page 19 of 22) Tj
+ET
+endstream
+endobj
+40 0 obj
+<< /Type /Page /Parent 47 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 39 0 R >>
+endobj
+41 0 obj
+<< /Length 2297 >>
+stream
+BT
+1 0 0 1 54 732 Tm
+16 TL
+/F1 11 Tf
+(    Explanation: Git lacks a built-in commit-count sort; scripts or `for-each-ref` with ) Tj
+T*
+(    custom formatting are used to compute and sort counts.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(91. What is `git notes` used for?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Attach additional metadata/notes to commits) Tj
+T*
+(    B. Create commit messages) Tj
+T*
+(    C. Manage TODOs) Tj
+T*
+(    D. Store stash) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: `git notes` lets you annotate commits with extra information that doesn't ) Tj
+T*
+(    modify the commit itself, stored in a separate namespace.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(92. Which command configures credential helper?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. git config credential.helper store) Tj
+T*
+(    B. git credential store) Tj
+T*
+(    C. git credential config) Tj
+T*
+(    D. git config --credential store) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Setting `credential.helper` configures how Git caches credentials \(e.g., ) Tj
+T*
+(    store, cache, manager\), facilitating automatic authentication.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(93. How do you show only merge commits?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. git log --merges) Tj
+T*
+(    B. git log --only-merges) Tj
+T*
+(    C. git log --merge-only) Tj
+T*
+(    D. git log --type=merge) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: `git log --merges` filters commits to merge commits, useful for reviewing ) Tj
+T*
+(    integration history.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(94. What does `git blame -L 10,20 file` show?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Line-by-line authorship for lines 10 through 20) Tj
+T*
+(    B. Log entries) Tj
+T*
+(    C. Commit graph) Tj
+T*
+(    D. Merge info) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: The `-L` option restricts the blame output to specific line ranges, ) Tj
+T*
+(    focusing on relevant sections.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(95. Which command copies commits from one branch to another while keeping history linear?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. git rebase source) Tj
+T*
+(    B. git merge source --ff-only) Tj
+T*
+(    C. Both depending on context) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 478 32.0 Tm
+(Page 20 of 22) Tj
+ET
+endstream
+endobj
+42 0 obj
+<< /Type /Page /Parent 47 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 41 0 R >>
+endobj
+43 0 obj
+<< /Length 2298 >>
+stream
+BT
+1 0 0 1 54 732 Tm
+16 TL
+/F1 11 Tf
+(    D. git cherry source) Tj
+T*
+/F2 11 Tf
+(    Answer: C) Tj
+T*
+/F1 11 Tf
+(    Explanation: Rebasing replays commits onto a branch; fast-forward merges integrate ) Tj
+T*
+(    commits without merge commits if possible.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(96. How do you configure Git to sign tags by default?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. git config --global tag.gpgSign true) Tj
+T*
+(    B. git config --global tag.sign true) Tj
+T*
+(    C. git tag --gpg default) Tj
+T*
+(    D. git config --global gpg.tag true) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Setting `tag.gpgSign` ensures new tags are signed automatically when ) Tj
+T*
+(    created, enforcing authenticity.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(97. What does `git log --graph --oneline --decorate` help visualize?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Branch history in graph format) Tj
+T*
+(    B. File status) Tj
+T*
+(    C. Tags only) Tj
+T*
+(    D. Stashes) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: The combination of flags produces a compact commit graph with branch/tag ) Tj
+T*
+(    names, revealing branching structure clearly.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(98. Which command lists tracked files with mode and hash?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. git ls-files --stage) Tj
+T*
+(    B. git status --long) Tj
+T*
+(    C. git show-files) Tj
+T*
+(    D. git list tracked) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: `git ls-files --stage` lists index entries with mode, object hash, and ) Tj
+T*
+(    stage, useful for low-level inspection.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(99. How do you abort an in-progress merge?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. git merge --abort) Tj
+T*
+(    B. git reset --merge) Tj
+T*
+(    C. Both \(depending on state\)) Tj
+T*
+(    D. git cancel merge) Tj
+T*
+/F2 11 Tf
+(    Answer: C) Tj
+T*
+/F1 11 Tf
+(    Explanation: During a merge, `git merge --abort` is preferred; `git reset --merge` works) Tj
+T*
+(     similarly. Use whichever fits the Git version.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(100. What is the safest way to rewrite history on public branch?) Tj
+16 TL
+T*
+/F1 11 Tf
+(     A. Avoid rewriting; use new commits or revert) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 478 32.0 Tm
+(Page 21 of 22) Tj
+ET
+endstream
+endobj
+44 0 obj
+<< /Type /Page /Parent 47 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 43 0 R >>
+endobj
+45 0 obj
+<< /Length 415 >>
+stream
+BT
+1 0 0 1 54 732 Tm
+16 TL
+/F1 11 Tf
+(     B. git push --force) Tj
+T*
+(     C. git reset --hard) Tj
+T*
+(     D. git filter-branch) Tj
+T*
+/F2 11 Tf
+(     Answer: A) Tj
+T*
+/F1 11 Tf
+(     Explanation: Rewriting shared history can disrupt collaborators; safest practice is to ) Tj
+T*
+(     avoid it and use reverts or follow protocols ensuring coordination.) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 478 32.0 Tm
+(Page 22 of 22) Tj
+ET
+endstream
+endobj
+46 0 obj
+<< /Type /Page /Parent 47 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 45 0 R >>
+endobj
+47 0 obj
+<< /Type /Pages /Count 22 /Kids [4 0 R 6 0 R 8 0 R 10 0 R 12 0 R 14 0 R 16 0 R 18 0 R 20 0 R 22 0 R 24 0 R 26 0 R 28 0 R 30 0 R 32 0 R 34 0 R 36 0 R 38 0 R 40 0 R 42 0 R 44 0 R 46 0 R] >>
+endobj
+48 0 obj
+<< /Type /Catalog /Pages 47 0 R >>
+endobj
+xref
+0 49
+0000000000 65535 f 
+0000000015 00000 n 
+0000000085 00000 n 
+0000000160 00000 n 
+0000002181 00000 n 
+0000002318 00000 n 
+0000004624 00000 n 
+0000004761 00000 n 
+0000006892 00000 n 
+0000007029 00000 n 
+0000009294 00000 n 
+0000009432 00000 n 
+0000011586 00000 n 
+0000011725 00000 n 
+0000014010 00000 n 
+0000014149 00000 n 
+0000016196 00000 n 
+0000016335 00000 n 
+0000018593 00000 n 
+0000018732 00000 n 
+0000021022 00000 n 
+0000021161 00000 n 
+0000023406 00000 n 
+0000023545 00000 n 
+0000025730 00000 n 
+0000025869 00000 n 
+0000028248 00000 n 
+0000028387 00000 n 
+0000030715 00000 n 
+0000030854 00000 n 
+0000033062 00000 n 
+0000033201 00000 n 
+0000035448 00000 n 
+0000035587 00000 n 
+0000037954 00000 n 
+0000038093 00000 n 
+0000040440 00000 n 
+0000040579 00000 n 
+0000042850 00000 n 
+0000042989 00000 n 
+0000045286 00000 n 
+0000045425 00000 n 
+0000047775 00000 n 
+0000047914 00000 n 
+0000050265 00000 n 
+0000050404 00000 n 
+0000050871 00000 n 
+0000051010 00000 n 
+0000051214 00000 n 
+trailer
+<< /Size 49 /Root 48 0 R >>
+startxref
+51265
+%%EOF

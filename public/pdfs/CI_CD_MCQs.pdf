@@ -1,0 +1,2943 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+2 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+3 0 obj
+<< /Length 2312 >>
+stream
+BT
+1 0 0 1 54 732 Tm
+26 TL
+/F2 20 Tf
+(CI/CD) Tj
+18 TL
+T*
+/F1 11 Tf
+(--------------------------------------------------------------------------------) Tj
+12 TL
+T*
+( ) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(1. What does CI stand for in DevOps practices?) Tj
+16 TL
+T*
+/F1 11 Tf
+(   A. Continuous Inspection) Tj
+T*
+(   B. Continuous Integration) Tj
+T*
+(   C. Continuous Implementation) Tj
+T*
+(   D. Continuous Innovation) Tj
+T*
+/F2 11 Tf
+(   Answer: B) Tj
+T*
+/F1 11 Tf
+(   Explanation: Continuous Integration emphasizes merging developer changes frequently and ) Tj
+T*
+(   validating them automatically to detect issues early.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(2. Which statement best describes Continuous Delivery?) Tj
+16 TL
+T*
+/F1 11 Tf
+(   A. Automatic deployment to production without human oversight) Tj
+T*
+(   B. Ability to deploy any build to production on demand) Tj
+T*
+(   C. Manual deployment once per month) Tj
+T*
+(   D. Delivery of documentation only) Tj
+T*
+/F2 11 Tf
+(   Answer: B) Tj
+T*
+/F1 11 Tf
+(   Explanation: Continuous Delivery keeps software in a deployable state so a release can ) Tj
+T*
+(   happen at any time, often with a manual approval gate.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(3. What is the main goal of Continuous Integration?) Tj
+16 TL
+T*
+/F1 11 Tf
+(   A. Merge code changes frequently and run automated tests) Tj
+T*
+(   B. Deploy nightly builds) Tj
+T*
+(   C. Monitor servers) Tj
+T*
+(   D. Manage infrastructure) Tj
+T*
+/F2 11 Tf
+(   Answer: A) Tj
+T*
+/F1 11 Tf
+(   Explanation: CI reduces integration problems by integrating work regularly and verifying ) Tj
+T*
+(   builds with automated tests.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(4. Which tool is widely used for CI/CD pipelines and uses declarative Jenkinsfile?) Tj
+16 TL
+T*
+/F1 11 Tf
+(   A. Jenkins) Tj
+T*
+(   B. GitLab Runner) Tj
+T*
+(   C. Azure DevOps) Tj
+T*
+(   D. Bamboo) Tj
+T*
+/F2 11 Tf
+(   Answer: A) Tj
+T*
+/F1 11 Tf
+(   Explanation: Jenkins offers declarative and scripted pipelines defined in Jenkinsfiles, ) Tj
+T*
+(   making pipeline logic version-controlled and reproducible.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(5. What does a pipeline stage typically represent?) Tj
+16 TL
+T*
+/F1 11 Tf
+(   A. A logical grouping of tasks like build, test, deploy) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 478 32.0 Tm
+(Page 1 of 22) Tj
+ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 47 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Length 2203 >>
+stream
+BT
+1 0 0 1 54 732 Tm
+16 TL
+/F1 11 Tf
+(   B. Individual command) Tj
+T*
+(   C. A monolithic application) Tj
+T*
+(   D. Source repository) Tj
+T*
+/F2 11 Tf
+(   Answer: A) Tj
+T*
+/F1 11 Tf
+(   Explanation: Stages divide pipeline flow into segments \(build, test, deploy\), clarifying ) Tj
+T*
+(   progression and enabling targeted visibility or approvals.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(6. What is the purpose of a build agent?) Tj
+16 TL
+T*
+/F1 11 Tf
+(   A. Execute pipeline jobs on assigned infrastructure) Tj
+T*
+(   B. Manage SCM) Tj
+T*
+(   C. Replace developers) Tj
+T*
+(   D. Store artifacts) Tj
+T*
+/F2 11 Tf
+(   Answer: A) Tj
+T*
+/F1 11 Tf
+(   Explanation: Build agents \(runners, executors\) run the tasks defined in pipelines, ) Tj
+T*
+(   provisioning environments and executing scripts or builds.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(7. Which CI/CD practice reduces integration issues by merging changes often?) Tj
+16 TL
+T*
+/F1 11 Tf
+(   A. Feature flagging) Tj
+T*
+(   B. Trunk-based development) Tj
+T*
+(   C. Blue-green deployment) Tj
+T*
+(   D. Canary release) Tj
+T*
+/F2 11 Tf
+(   Answer: B) Tj
+T*
+/F1 11 Tf
+(   Explanation: Trunk-based development encourages short-lived branches and frequent merges ) Tj
+T*
+(   into mainline, aligning with CI goals.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(8. What is an artifact repository used for?) Tj
+16 TL
+T*
+/F1 11 Tf
+(   A. Store build outputs like binaries, packages) Tj
+T*
+(   B. Store source code) Tj
+T*
+(   C. Manage environment variables) Tj
+T*
+(   D. Monitor logs) Tj
+T*
+/F2 11 Tf
+(   Answer: A) Tj
+T*
+/F1 11 Tf
+(   Explanation: Artifacts are produced by builds and stored in repositories for versioned, ) Tj
+T*
+(   traceable distribution to downstream environments.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(9. Which tool is commonly used to manage artifacts?) Tj
+16 TL
+T*
+/F1 11 Tf
+(   A. JFrog Artifactory) Tj
+T*
+(   B. Git) Tj
+T*
+(   C. Terraform) Tj
+T*
+(   D. Ansible) Tj
+T*
+/F2 11 Tf
+(   Answer: A) Tj
+T*
+/F1 11 Tf
+(   Explanation: Tools like Artifactory or Nexus manage binary artifacts, complementing ) Tj
+T*
+(   source control and enabling reliable deployments.) Tj
+10 TL
+T*
+( ) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 478 32.0 Tm
+(Page 2 of 22) Tj
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 47 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Length 2309 >>
+stream
+BT
+1 0 0 1 54 732 Tm
+18 TL
+/F2 12 Tf
+(10. What do automated tests in CI ensure?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Code changes don't break existing functionality) Tj
+T*
+(    B. Deployments run faster) Tj
+T*
+(    C. Manual testing is replaced entirely) Tj
+T*
+(    D. Performance metrics improve) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Automated tests catch regressions early, maintaining software quality with ) Tj
+T*
+(    each integration.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(11. In a Jenkins pipeline, what does `agent any` denote?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Run pipeline on any available agent) Tj
+T*
+(    B. Run pipeline on local machine only) Tj
+T*
+(    C. Run pipeline in Docker) Tj
+T*
+(    D. Run pipeline on master node only) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: `agent any` tells Jenkins to schedule the pipeline on any available ) Tj
+T*
+(    executor node with suitable labels.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(12. What is a benefit of using Infrastructure as Code in pipelines?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Reproducible environments with version control) Tj
+T*
+(    B. Manual configuration) Tj
+T*
+(    C. Slower provisioning) Tj
+T*
+(    D. More documentation) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: IaC ensures environments are defined declaratively and reproducibly, ) Tj
+T*
+(    reducing drift and enabling consistent pipeline provisioning.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(13. Which branching strategy is often paired with CI?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Trunk-based or short-lived feature branches) Tj
+T*
+(    B. Long-lived release branches only) Tj
+T*
+(    C. Forking workflow exclusively) Tj
+T*
+(    D. No branching) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Short-lived branches or direct commits to trunk integrate quickly, ) Tj
+T*
+(    minimizing divergence and easing automated testing.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(14. What does pipeline-as-code provide?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Version-controlled definition of pipeline logic) Tj
+T*
+(    B. Manual pipeline creation) Tj
+T*
+(    C. GUI-based pipeline editing only) Tj
+T*
+(    D. No change tracking) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 478 32.0 Tm
+(Page 3 of 22) Tj
+ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 47 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 7 0 R >>
+endobj
+9 0 obj
+<< /Length 2399 >>
+stream
+BT
+1 0 0 1 54 732 Tm
+16 TL
+/F1 11 Tf
+(    Explanation: Defining pipelines as code allows review, reuse, and change tracking of ) Tj
+T*
+(    automated workflows alongside application code.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(15. Which type of testing is typically executed early in CI pipeline?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Unit tests) Tj
+T*
+(    B. Load tests) Tj
+T*
+(    C. Production tests) Tj
+T*
+(    D. Chaos engineering) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Unit tests run quickly and validate individual components, serving as the ) Tj
+T*
+(    first safeguard in CI pipelines.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(16. What is blue-green deployment?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Rolling deployment with two identical environments, switching traffic after ) Tj
+T*
+(    verification) Tj
+T*
+(    B. Deploying with canary nodes only) Tj
+T*
+(    C. Deploying on weekends) Tj
+T*
+(    D. Deploying to staging only) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Blue-green uses two environments \(blue and green\) where one serves traffic ) Tj
+T*
+(    while the other receives updates, enabling instant cutover and rollback.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(17. Continuous Deployment differs from Continuous Delivery by:) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Automatically deploying every change to production without manual approval) Tj
+T*
+(    B. Requiring manual deployment) Tj
+T*
+(    C. Removing testing) Tj
+T*
+(    D. Only building artifacts) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Continuous Deployment automates the last mile, pushing successful builds to) Tj
+T*
+(     production without human gating, whereas Continuous Delivery may still require ) Tj
+T*
+(    approval.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(18. Which open-source CI tool uses YAML `.gitlab-ci.yml` file?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. GitLab CI) Tj
+T*
+(    B. Jenkins) Tj
+T*
+(    C. CircleCI) Tj
+T*
+(    D. Travis CI) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: GitLab CI/CD pipelines are defined in `.gitlab-ci.yml`, specifying stages, ) Tj
+T*
+(    jobs, and scripts executed by GitLab Runners.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(19. What is a canary release?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Gradually routing traffic to new version to monitor issues) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 478 32.0 Tm
+(Page 4 of 22) Tj
+ET
+endstream
+endobj
+10 0 obj
+<< /Type /Page /Parent 47 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 9 0 R >>
+endobj
+11 0 obj
+<< /Length 2323 >>
+stream
+BT
+1 0 0 1 54 732 Tm
+16 TL
+/F1 11 Tf
+(    B. Deploying to all users instantly) Tj
+T*
+(    C. Manual deployment) Tj
+T*
+(    D. Deploying without tests) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Canary releases incrementally introduce changes to a subset of users, ) Tj
+T*
+(    monitoring metrics before wider rollout.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(20. Why use containerized build environments?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Ensure consistent build dependencies) Tj
+T*
+(    B. Increase resource usage) Tj
+T*
+(    C. Reduce isolation) Tj
+T*
+(    D. Avoid automation) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Containers provide reproducible, isolated environments ensuring builds run ) Tj
+T*
+(    with consistent dependencies across agents.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(21. What does `pipeline` block define in Jenkins declarative pipeline?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Entire pipeline, including agent, stages, post actions) Tj
+T*
+(    B. Only build step) Tj
+T*
+(    C. Only environment variables) Tj
+T*
+(    D. Only triggers) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: The top-level `pipeline` block encapsulates the entire pipeline structure, ) Tj
+T*
+(    housing agent declarations, environment, stages, and post conditions.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(22. Which service from AWS provides managed CI/CD?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. AWS CodePipeline) Tj
+T*
+(    B. AWS Lambda) Tj
+T*
+(    C. AWS CloudTrail) Tj
+T*
+(    D. Amazon S3) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: CodePipeline orchestrates CI/CD workflows, integrating with CodeBuild, ) Tj
+T*
+(    CodeDeploy, and partner services for automation.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(23. What is typically stored in `.gitlab-ci.yml`?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Stages, jobs, scripts, and environment definitions for pipeline) Tj
+T*
+(    B. Terraform state) Tj
+T*
+(    C. Deployment manifests only) Tj
+T*
+(    D. Helm charts) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: `.gitlab-ci.yml` describes the pipeline including stages, job definitions, ) Tj
+T*
+(    scripts, variables, and environment configuration for GitLab CI/CD.) Tj
+10 TL
+T*
+( ) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 478 32.0 Tm
+(Page 5 of 22) Tj
+ET
+endstream
+endobj
+12 0 obj
+<< /Type /Page /Parent 47 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 11 0 R >>
+endobj
+13 0 obj
+<< /Length 2236 >>
+stream
+BT
+1 0 0 1 54 732 Tm
+18 TL
+/F2 12 Tf
+(24. In Azure DevOps pipelines, what is a `stage`?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Logical boundary for jobs representing phases like build/test/deploy) Tj
+T*
+(    B. Container registry) Tj
+T*
+(    C. Single task) Tj
+T*
+(    D. Service connection) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Stages group jobs into phases, enabling approvals, dependencies, and ) Tj
+T*
+(    visualization across the pipeline flow.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(25. What is the role of webhooks in CI/CD?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Trigger pipelines based on repository events like pushes or PRs) Tj
+T*
+(    B. Manage secrets) Tj
+T*
+(    C. Provide logging) Tj
+T*
+(    D. Deploy artifacts) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Webhooks notify CI/CD systems of repository changes, automatically ) Tj
+T*
+(    triggering builds or deployments.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(26. Why use feature flags?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Toggle features without redeploying, enabling safer releases) Tj
+T*
+(    B. Enforce longer release cycles) Tj
+T*
+(    C. Replace version control) Tj
+T*
+(    D. Force downtime) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Feature flags enable progressive rollouts and quick disablement of features) Tj
+T*
+(     without redeployment, supporting experimentation.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(27. What is artifact promotion?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Moving build artifact through environments \(dev->test->prod\) after validation) Tj
+T*
+(    B. Advertising product) Tj
+T*
+(    C. Removing old artifacts) Tj
+T*
+(    D. Encrypting build) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Promotion ensures the same artifact travels across environments, ) Tj
+T*
+(    maintaining consistency and traceability of deployments.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(28. Which pipeline stage assures code quality with static analysis?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Quality gate stage) Tj
+T*
+(    B. Deploy stage) Tj
+T*
+(    C. Monitoring stage) Tj
+T*
+(    D. Notification stage) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 478 32.0 Tm
+(Page 6 of 22) Tj
+ET
+endstream
+endobj
+14 0 obj
+<< /Type /Page /Parent 47 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 13 0 R >>
+endobj
+15 0 obj
+<< /Length 2339 >>
+stream
+BT
+1 0 0 1 54 732 Tm
+16 TL
+/F1 11 Tf
+(    Explanation: Incorporating static analysis or code quality checks in a dedicated stage ) Tj
+T*
+(    ensures quality gates are met before progressing.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(29. What does `retry` keyword do in GitLab CI?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Re-run job automatically on failure specified number of times) Tj
+T*
+(    B. Skip stage) Tj
+T*
+(    C. Rollback release) Tj
+T*
+(    D. Retry merge request) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Setting `retry` allows jobs to retrigger automatically when they fail, ) Tj
+T*
+(    mitigating transient issues like network glitches.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(30. What is the primary outcome of Continuous Testing?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Feedback on code quality delivered rapidly throughout pipeline) Tj
+T*
+(    B. Manual QA cycles) Tj
+T*
+(    C. Deployment scheduling) Tj
+T*
+(    D. Monitoring uptime) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Continuous Testing ensures test feedback is integrated across the pipeline,) Tj
+T*
+(     enabling quick detection of defects before production.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(31. Which protocol is commonly used by CI servers to pull code?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Git over HTTPS/SSH) Tj
+T*
+(    B. FTP) Tj
+T*
+(    C. SMB) Tj
+T*
+(    D. RDP) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: CI servers clone or fetch repositories via Git protocols \(HTTPS or SSH\), ) Tj
+T*
+(    aligning with standard version control practices.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(32. Why is pipeline visualization helpful?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Understand flow, bottlenecks, and failure points quickly) Tj
+T*
+(    B. Replace logs) Tj
+T*
+(    C. Increase deploy time) Tj
+T*
+(    D. Manage secrets) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Visual pipelines highlight stage status and durations, helping teams ) Tj
+T*
+(    identify fail points or slow steps for optimization.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(33. What is a manual approval gate?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Step requiring human validation before proceeding further) Tj
+T*
+(    B. Automatic deploy) Tj
+T*
+(    C. Monitoring tool) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 478 32.0 Tm
+(Page 7 of 22) Tj
+ET
+endstream
+endobj
+16 0 obj
+<< /Type /Page /Parent 47 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 15 0 R >>
+endobj
+17 0 obj
+<< /Length 2281 >>
+stream
+BT
+1 0 0 1 54 732 Tm
+16 TL
+/F1 11 Tf
+(    D. Notification pipeline) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Approval gates halt pipeline execution until an authorized person reviews ) Tj
+T*
+(    and approves, often before production deploys.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(34. Which Kubernetes-native CI/CD tool defines pipelines as CRDs?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Tekton) Tj
+T*
+(    B. Jenkins X \(uses Tekton internally\)) Tj
+T*
+(    C. Argo Workflows) Tj
+T*
+(    D. All of the above) Tj
+T*
+/F2 11 Tf
+(    Answer: D) Tj
+T*
+/F1 11 Tf
+(    Explanation: Tekton provides CRDs for pipelines; Jenkins X leverages Tekton; Argo ) Tj
+T*
+(    Workflows also uses CRDs for workflow definitions.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(35. What is the purpose of code coverage reports in CI?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Measure percentage of code executed by tests) Tj
+T*
+(    B. Measure deployment frequency) Tj
+T*
+(    C. Monitor security) Tj
+T*
+(    D. Manage repositories) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Coverage reports reveal how much code the test suite exercises, guiding ) Tj
+T*
+(    test improvement.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(36. Which metric is part of DORA metrics?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Deployment frequency) Tj
+T*
+(    B. Code review time) Tj
+T*
+(    C. Sprint velocity) Tj
+T*
+(    D. Team size) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: DORA metrics include deployment frequency, lead time for changes, change ) Tj
+T*
+(    failure rate, and mean time to recovery.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(37. What does `gitlab-runner register` do?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Registers a runner with GitLab instance to execute jobs) Tj
+T*
+(    B. Register user) Tj
+T*
+(    C. Register branch) Tj
+T*
+(    D. Register artifact) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Registering a runner connects it to GitLab, allowing it to pick up CI jobs ) Tj
+T*
+(    according to tags or configuration.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(38. Why implement secrets management in CI/CD?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Protect credentials used during builds and deployments) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 478 32.0 Tm
+(Page 8 of 22) Tj
+ET
+endstream
+endobj
+18 0 obj
+<< /Type /Page /Parent 47 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 17 0 R >>
+endobj
+19 0 obj
+<< /Length 2236 >>
+stream
+BT
+1 0 0 1 54 732 Tm
+16 TL
+/F1 11 Tf
+(    B. Increase logs) Tj
+T*
+(    C. Share passwords publicly) Tj
+T*
+(    D. Reduce automation) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Secure secrets management prevents exposure of credentials, API keys, and ) Tj
+T*
+(    tokens used in automation.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(39. What is pipeline caching?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Reusing previously downloaded dependencies or build outputs to speed jobs) Tj
+T*
+(    B. Storing pipeline logs) Tj
+T*
+(    C. Storing artifacts) Tj
+T*
+(    D. Storing environment variables) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Caching reduces redundant downloads and builds, improving pipeline ) Tj
+T*
+(    performance by reusing intermediate results.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(40. What is the role of `stages` array in GitLab CI?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Define execution order of job groups) Tj
+T*
+(    B. Define environment variables) Tj
+T*
+(    C. Store artifacts) Tj
+T*
+(    D. Manage secrets) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: The `stages` array sets the pipeline flow order; jobs assigned to each ) Tj
+T*
+(    stage run concurrently and stages run sequentially.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(41. Which CI/CD concept ensures production-like environment for testing?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Staging environment) Tj
+T*
+(    B. Development environment) Tj
+T*
+(    C. Sandbox only) Tj
+T*
+(    D. Local environment) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Staging mirrors production to catch issues before release, providing ) Tj
+T*
+(    realistic validation of builds.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(42. What is rollback strategy?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Plan to revert to previous stable version if deployment fails) Tj
+T*
+(    B. Plan to accelerate deployments) Tj
+T*
+(    C. Plan to refactor) Tj
+T*
+(    D. Plan to scale) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Rollback plans ensure teams can quickly return to a known good state when ) Tj
+T*
+(    new releases cause issues.) Tj
+10 TL
+T*
+( ) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 478 32.0 Tm
+(Page 9 of 22) Tj
+ET
+endstream
+endobj
+20 0 obj
+<< /Type /Page /Parent 47 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 19 0 R >>
+endobj
+21 0 obj
+<< /Length 2288 >>
+stream
+BT
+1 0 0 1 54 732 Tm
+18 TL
+/F2 12 Tf
+(43. In Jenkins, what does a `post` block define?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Actions after entire pipeline or stage completes \(success/failure/always\)) Tj
+T*
+(    B. Pre-build tasks) Tj
+T*
+(    C. Environment variables) Tj
+T*
+(    D. Agent selection) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: The `post` section declares steps to run after pipeline completion, such as) Tj
+T*
+(     notifications on success or failure.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(44. Which service provides hosted CI/CD pipelines integrated with GitHub?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. GitHub Actions) Tj
+T*
+(    B. Bitbucket Pipelines) Tj
+T*
+(    C. Azure DevOps) Tj
+T*
+(    D. TeamCity) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: GitHub Actions runs workflows directly in GitHub repositories, integrating ) Tj
+T*
+(    with GitHub events and marketplace actions.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(45. What is the purpose of `matrix` builds?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Run same job across multiple configurations \(e.g., OS, versions\)) Tj
+T*
+(    B. Run sequential builds) Tj
+T*
+(    C. Upgrade matrix library) Tj
+T*
+(    D. Manage dependencies) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Matrix builds execute permutations of parameters \(like Python versions\) in ) Tj
+T*
+(    parallel, improving test coverage across environments.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(46. Why is idempotent deployment important?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Ensures repeated deployments yield same state without side effects) Tj
+T*
+(    B. Speeds up compile) Tj
+T*
+(    C. Removes rollback need) Tj
+T*
+(    D. Eliminates testing) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Idempotent deployments avoid inconsistent environments when pipelines rerun) Tj
+T*
+(     the same deployment script.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(47. What does `needs` keyword define in GitLab CI?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Job dependencies to enable directed acyclic graph execution) Tj
+T*
+(    B. Required artifacts) Tj
+T*
+(    C. Required manual approval) Tj
+T*
+(    D. Required variables) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 478 32.0 Tm
+(Page 10 of 22) Tj
+ET
+endstream
+endobj
+22 0 obj
+<< /Type /Page /Parent 47 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 21 0 R >>
+endobj
+23 0 obj
+<< /Length 2407 >>
+stream
+BT
+1 0 0 1 54 732 Tm
+16 TL
+/F1 11 Tf
+(    Explanation: `needs` allows jobs to run as soon as prerequisites succeed, enabling more ) Tj
+T*
+(    parallel execution than stage-based dependencies alone.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(48. Which technique gradually shifts traffic between old and new versions?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Canary deployment) Tj
+T*
+(    B. Blue-green) Tj
+T*
+(    C. Rolling update) Tj
+T*
+(    D. Both A and C \(canary incremental, rolling sequential\)) Tj
+T*
+/F2 11 Tf
+(    Answer: D) Tj
+T*
+/F1 11 Tf
+(    Explanation: Canary gradually increases traffic percentage; rolling updates replace ) Tj
+T*
+(    instances in batches. Both provide controlled transitions.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(49. What is artifact retention policy?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Rules for how long artifacts are stored before cleanup) Tj
+T*
+(    B. Rule for artifact security) Tj
+T*
+(    C. Rule for pipeline triggers) Tj
+T*
+(    D. Rule for environment) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Retention policies determine storage duration for build outputs to manage ) Tj
+T*
+(    storage costs and compliance requirements.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(50. What does `pipeline.trigger` do in GitLab?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Starts downstream pipeline using trigger token) Tj
+T*
+(    B. Adds stage) Tj
+T*
+(    C. Cancels pipeline) Tj
+T*
+(    D. Notifies user) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(Explanation: Pipeline triggers in GitLab allow programmatic or chained pipeline execution ) Tj
+T*
+(via tokens, enabling multi-project orchestration.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(51. Why use container registries in CI/CD?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Store and version Docker images used for deployment) Tj
+T*
+(    B. Store source code) Tj
+T*
+(    C. Store binaries only) Tj
+T*
+(    D. Manage logs) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Container registries hold built images tagged with versions, ensuring ) Tj
+T*
+(    consistent artifacts for deployments across environments.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(52. Which command validates GitHub Actions workflow syntax locally?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. act \(third-party tool\)) Tj
+T*
+(    B. gh workflow validate) Tj
+T*
+(    C. Both \(depending on tooling\)) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 478 32.0 Tm
+(Page 11 of 22) Tj
+ET
+endstream
+endobj
+24 0 obj
+<< /Type /Page /Parent 47 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 23 0 R >>
+endobj
+25 0 obj
+<< /Length 2334 >>
+stream
+BT
+1 0 0 1 54 732 Tm
+16 TL
+/F1 11 Tf
+(    D. git actions check) Tj
+T*
+/F2 11 Tf
+(    Answer: C) Tj
+T*
+/F1 11 Tf
+(    Explanation: The `act` CLI simulates Actions locally, while `gh workflow validate` ) Tj
+T*
+(    checks workflow syntax using GitHub's CLI.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(53. What is the purpose of `approval` steps in deployment pipelines?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Provide manual control gate before promoting to critical environments) Tj
+T*
+(    B. Automate deployments) Tj
+T*
+(    C. Remove accountability) Tj
+T*
+(    D. Manage secrets) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Approvals ensure stakeholders validate changes before production ) Tj
+T*
+(    deployment, balancing automation with governance.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(54. Which object defines pipeline default environment variables in GitLab?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. variables:) Tj
+T*
+(    B. env:) Tj
+T*
+(    C. settings:) Tj
+T*
+(    D. config:) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: In `.gitlab-ci.yml`, the `variables` section sets default environment ) Tj
+T*
+(    variables available to all jobs unless overridden.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(55. What is the benefit of automated rollbacks?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Rapid recovery from failed deployments with minimal manual intervention) Tj
+T*
+(    B. Slower pipeline) Tj
+T*
+(    C. Increased downtime) Tj
+T*
+(    D. More manual work) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Automation enables quick rollback to previous stable versions, reducing ) Tj
+T*
+(    mean time to recovery when incidents occur.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(56. What does `pipeline as code` enable for auditing?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Track changes to pipeline definitions via version control) Tj
+T*
+(    B. Remove history) Tj
+T*
+(    C. Mask commits) Tj
+T*
+(    D. Delete logs) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Pipelines stored alongside source code provide traceability, code review, ) Tj
+T*
+(    and history for workflow changes.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(57. Which Jenkins plugin supports declarative pipelines?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Pipeline plugin) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 478 32.0 Tm
+(Page 12 of 22) Tj
+ET
+endstream
+endobj
+26 0 obj
+<< /Type /Page /Parent 47 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 25 0 R >>
+endobj
+27 0 obj
+<< /Length 2247 >>
+stream
+BT
+1 0 0 1 54 732 Tm
+16 TL
+/F1 11 Tf
+(    B. Blue Ocean) Tj
+T*
+(    C. Git plugin) Tj
+T*
+(    D. Email-ext) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: The Pipeline plugin adds Jenkinsfile-based pipeline support, enabling ) Tj
+T*
+(    declarative syntax and pipeline-as-code capabilities.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(58. What is ephemeral build agent?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Agent created on demand and destroyed after job completion) Tj
+T*
+(    B. Always-on server) Tj
+T*
+(    C. Manual worker) Tj
+T*
+(    D. Static host) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Ephemeral agents provision clean environments per job, preventing ) Tj
+T*
+(    contamination between builds and simplifying scaling.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(59. Why configure branch protection rules with CI?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Enforce successful builds/tests before merges) Tj
+T*
+(    B. Prevent branching) Tj
+T*
+(    C. Disable CI) Tj
+T*
+(    D. Force direct commits to main) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Branch protection can require status checks from CI pipelines to pass ) Tj
+T*
+(    before merging to critical branches, improving quality.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(60. Which pipeline stage ensures compliance checks?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Governance stage) Tj
+T*
+(    B. Build stage) Tj
+T*
+(    C. Rollback stage) Tj
+T*
+(    D. Code review stage) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: A governance or compliance stage runs security checks, policy validations, ) Tj
+T*
+(    or audit tasks prior to release.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(61. What is trunk-based development?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Developers commit small changes frequently to mainline) Tj
+T*
+(    B. Developers work on long branches for months) Tj
+T*
+(    C. Developers clone nightly) Tj
+T*
+(    D. Developers avoid merging) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Trunk-based development supports CI by encouraging frequent merges to main,) Tj
+T*
+(     reducing merge conflicts and enabling rapid feedback.) Tj
+10 TL
+T*
+( ) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 478 32.0 Tm
+(Page 13 of 22) Tj
+ET
+endstream
+endobj
+28 0 obj
+<< /Type /Page /Parent 47 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 27 0 R >>
+endobj
+29 0 obj
+<< /Length 2278 >>
+stream
+BT
+1 0 0 1 54 732 Tm
+18 TL
+/F2 12 Tf
+(62. Why integrate security scans \(DevSecOps\)?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Identify vulnerabilities early in pipeline) Tj
+T*
+(    B. Delay deployments) Tj
+T*
+(    C. Replace QA) Tj
+T*
+(    D. Remove tests) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Integrating security testing \(SAST, DAST, container scanning\) into ) Tj
+T*
+(    pipelines catches issues early, aligning with DevSecOps practices.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(63. What does `parallel` directive enable in Jenkins?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Execute multiple branches of pipeline simultaneously) Tj
+T*
+(    B. Repeat stage sequentially) Tj
+T*
+(    C. Execute only one job) Tj
+T*
+(    D. Reuse artifacts) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Jenkins declarative pipeline supports `parallel` to run multiple branches ) Tj
+T*
+(    \(e.g., tests on different platforms\) concurrently within a stage.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(64. Which metric measures time between code committed and deployed?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Lead time for changes) Tj
+T*
+(    B. Mean time to recover) Tj
+T*
+(    C. Deployment frequency) Tj
+T*
+(    D. Change fail rate) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Lead time for changes, one of the DORA metrics, tracks how quickly changes ) Tj
+T*
+(    move from commit to production.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(65. What is a service connection in Azure DevOps?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Defines credentials to external services used by pipelines) Tj
+T*
+(    B. Defines deployment environment) Tj
+T*
+(    C. Defines pipeline schedule) Tj
+T*
+(    D. Defines repository) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Service connections store authentication details for services like Azure ) Tj
+T*
+(    subscriptions, Docker registries, or GitHub repositories.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(66. How do you trigger GitHub Actions workflow manually?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. workflow_dispatch event) Tj
+T*
+(    B. manual trigger command) Tj
+T*
+(    C. scheduler) Tj
+T*
+(    D. comment trigger only) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 478 32.0 Tm
+(Page 14 of 22) Tj
+ET
+endstream
+endobj
+30 0 obj
+<< /Type /Page /Parent 47 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 29 0 R >>
+endobj
+31 0 obj
+<< /Length 2375 >>
+stream
+BT
+1 0 0 1 54 732 Tm
+16 TL
+/F1 11 Tf
+(    Explanation: Adding `workflow_dispatch` allows manual triggering from the GitHub UI or ) Tj
+T*
+(    API with optional input parameters.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(67. Why maintain pipeline documentation?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Help teams understand stages, dependencies, and recovery procedures) Tj
+T*
+(    B. Replace code) Tj
+T*
+(    C. Increase approvals) Tj
+T*
+(    D. Remove automation) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Documentation clarifies pipeline design, responsibilities, and rollback ) Tj
+T*
+(    steps, facilitating onboarding and incident response.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(68. What does `allow_failure: true` do in GitLab CI?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Marks job as optional; pipeline succeeds even if job fails) Tj
+T*
+(    B. Retries job) Tj
+T*
+(    C. Cancels pipeline) Tj
+T*
+(    D. Skips job) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Setting `allow_failure` permits a job to fail without failing the pipeline,) Tj
+T*
+(     useful for non-critical tests or experimental checks.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(69. Which deployment strategy keeps old version running until new version passes tests, then) Tj
+T*
+( switches traffic?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Blue-green deployment) Tj
+T*
+(    B. Rolling deployment) Tj
+T*
+(    C. Direct cutover) Tj
+T*
+(    D. Hotfix deployment) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Blue-green maintains two production environments, promoting the new one ) Tj
+T*
+(    only after validation, facilitating instant rollback.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(70. What is pipeline orchestration?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Coordinated execution of multiple pipelines or jobs with dependencies) Tj
+T*
+(    B. Running single script) Tj
+T*
+(    C. Manual approval only) Tj
+T*
+(    D. Logging) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Orchestration manages complex workflows across projects or microservices, ) Tj
+T*
+(    ensuring correct order and dependencies among pipelines.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(71. What is the role of `artifacts` keyword in GitLab CI?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Specify files to be uploaded after job completion) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 478 32.0 Tm
+(Page 15 of 22) Tj
+ET
+endstream
+endobj
+32 0 obj
+<< /Type /Page /Parent 47 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 31 0 R >>
+endobj
+33 0 obj
+<< /Length 2273 >>
+stream
+BT
+1 0 0 1 54 732 Tm
+16 TL
+/F1 11 Tf
+(    B. Define dependencies) Tj
+T*
+(    C. Set environment) Tj
+T*
+(    D. Set timeouts) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Declaring `artifacts` captures files \(binaries, logs, reports\) from a job ) Tj
+T*
+(    and persists them for download or downstream stages.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(72. Why use caching of Docker layers?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Accelerate image builds by reusing unchanged layers) Tj
+T*
+(    B. Increase image size) Tj
+T*
+(    C. Remove reproducibility) Tj
+T*
+(    D. Avoid build automation) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Docker layer caching prevents rebuilding unchanged layers, significantly ) Tj
+T*
+(    reducing build time during CI.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(73. Which tool automates progressive delivery with metrics-based rollouts on Kubernetes?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Argo Rollouts) Tj
+T*
+(    B. Spinnaker) Tj
+T*
+(    C. Flagger) Tj
+T*
+(    D. All of the above) Tj
+T*
+/F2 11 Tf
+(    Answer: D) Tj
+T*
+/F1 11 Tf
+(    Explanation: Argo Rollouts, Spinnaker, and Flagger all support progressive delivery ) Tj
+T*
+(    patterns \(canary, blue-green\) driven by metrics and analysis.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(74. What is dynamic environment in GitLab?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Temporary environment created per branch or merge request for review) Tj
+T*
+(    B. Static production environment) Tj
+T*
+(    C. Local workspace) Tj
+T*
+(    D. Pipeline log) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Dynamic environments provide per-branch review apps, enabling testing and ) Tj
+T*
+(    stakeholder review before merge.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(75. Why incorporate smoke tests post-deployment?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Quickly verify critical functionality before full rollout) Tj
+T*
+(    B. Replace unit tests) Tj
+T*
+(    C. Delay release) Tj
+T*
+(    D. Provide documentation) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Smoke tests validate essential system functions immediately after ) Tj
+T*
+(    deployment, catching major issues early.) Tj
+10 TL
+T*
+( ) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 478 32.0 Tm
+(Page 16 of 22) Tj
+ET
+endstream
+endobj
+34 0 obj
+<< /Type /Page /Parent 47 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 33 0 R >>
+endobj
+35 0 obj
+<< /Length 2131 >>
+stream
+BT
+1 0 0 1 54 732 Tm
+18 TL
+/F2 12 Tf
+(76. What is pipeline failure notification used for?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Alert stakeholders about issues for quick remediation) Tj
+T*
+(    B. Increase noise) Tj
+T*
+(    C. Remove logs) Tj
+T*
+(    D. Document success) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Notifications via email, chat, or incident systems ensure the right people ) Tj
+T*
+(    respond promptly to broken pipelines.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(77. Which command line tool interacts with Jenkins via scripts?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Jenkins CLI \(java -jar jenkins-cli.jar\)) Tj
+T*
+(    B. Jenkinsctl) Tj
+T*
+(    C. jnk) Tj
+T*
+(    D. Jenkins API only) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: The Jenkins CLI jar connects to Jenkins to create jobs, trigger builds, or ) Tj
+T*
+(    manage configuration from scripts.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(78. Why use multi-branch pipelines?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Automatically create pipeline per branch with shared Jenkinsfile) Tj
+T*
+(    B. Only run on main) Tj
+T*
+(    C. Avoid branching) Tj
+T*
+(    D. Merge branches) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Multi-branch pipelines auto-detect branches and run their respective ) Tj
+T*
+(    Jenkinsfiles, aligning CI with branch workflows.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(79. What is the purpose of pipeline timeouts?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Prevent jobs from running indefinitely if stuck) Tj
+T*
+(    B. Slow down pipeline) Tj
+T*
+(    C. Ensure manual intervention) Tj
+T*
+(    D. Increase resource usage) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Timeouts guard against hung builds, freeing resources and prompting ) Tj
+T*
+(    investigation of long-running steps.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(80. Which GitHub Actions syntax defines job dependencies?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. needs:) Tj
+T*
+(    B. depends_on:) Tj
+T*
+(    C. requires:) Tj
+T*
+(    D. after:) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 478 32.0 Tm
+(Page 17 of 22) Tj
+ET
+endstream
+endobj
+36 0 obj
+<< /Type /Page /Parent 47 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 35 0 R >>
+endobj
+37 0 obj
+<< /Length 2412 >>
+stream
+BT
+1 0 0 1 54 732 Tm
+16 TL
+/F1 11 Tf
+(    Explanation: The `needs` keyword lists jobs that must complete before the current job ) Tj
+T*
+(    begins, establishing dependency graphs in workflows.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(81. Why run security scans on container images?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Detect vulnerabilities before deployment) Tj
+T*
+(    B. Increase image size) Tj
+T*
+(    C. Remove dependencies) Tj
+T*
+(    D. Delay releases) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Scanning images for CVEs ensures containerized workloads meet security ) Tj
+T*
+(    standards before reaching production.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(82. What is a release pipeline?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Pipeline focusing on deploying artifacts through staging/production with approvals) Tj
+T*
+(    B. Pipeline building code only) Tj
+T*
+(    C. Pipeline for documentation) Tj
+T*
+(    D. Pipeline for tests only) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Release pipelines orchestrate packaging, approvals, and deployments across ) Tj
+T*
+(    environments, managing releases end-to-end.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(83. What is the role of configuration management in CD?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Ensure environments are configured consistently during deployments) Tj
+T*
+(    B. Replace CI) Tj
+T*
+(    C. Manage developers) Tj
+T*
+(    D. Provide logging) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Configuration management tools \(Ansible, Chef, Puppet\) enforce consistent ) Tj
+T*
+(    server state, supporting automated deployments.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(84. Why use automated database migrations in CD?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Keep schema in sync with application deployments reliably) Tj
+T*
+(    B. Replace backups) Tj
+T*
+(    C. Avoid schema changes) Tj
+T*
+(    D. Delay deploys) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Automated migrations ensure database changes deploy alongside application ) Tj
+T*
+(    code, reducing manual errors and drift.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(85. What does `CI` pipeline badge indicate in GitHub/GitLab?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Current build status \(passing/failing\)) Tj
+T*
+(    B. Number of commits) Tj
+T*
+(    C. Number of contributors) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 478 32.0 Tm
+(Page 18 of 22) Tj
+ET
+endstream
+endobj
+38 0 obj
+<< /Type /Page /Parent 47 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 37 0 R >>
+endobj
+39 0 obj
+<< /Length 2331 >>
+stream
+BT
+1 0 0 1 54 732 Tm
+16 TL
+/F1 11 Tf
+(    D. Tag count) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Pipeline badges display build status, allowing quick visibility on README ) Tj
+T*
+(    pages or dashboards.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(86. Which pipeline step prepares infrastructure before deploy?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Provision stage using IaC) Tj
+T*
+(    B. Cleanup stage) Tj
+T*
+(    C. Notification stage) Tj
+T*
+(    D. Monitoring stage) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Provisioning stage applies infrastructure templates to ensure required ) Tj
+T*
+(    resources exist before application deployment.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(87. What is environment drift?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Differences between environments caused by manual changes) Tj
+T*
+(    B. Monitoring metric) Tj
+T*
+(    C. Pipeline failure) Tj
+T*
+(    D. Deployment frequency) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Drift occurs when environments diverge from desired configuration due to ) Tj
+T*
+(    manual edits or inconsistent automation; pipelines aim to prevent or detect it.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(88. Why monitor pipeline performance metrics?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Identify bottlenecks and improve speed/reliability) Tj
+T*
+(    B. Increase costs) Tj
+T*
+(    C. Reduce automation) Tj
+T*
+(    D. Replace documentation) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Tracking job durations, queue times, and success rates helps optimize ) Tj
+T*
+(    pipeline efficiency and reliability.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(89. What does `rules` keyword in GitLab CI define?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Conditions for job execution based on branch, variables, or changes) Tj
+T*
+(    B. Job dependencies) Tj
+T*
+(    C. Artifact storage) Tj
+T*
+(    D. Timeout) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: `rules` provides fine-grained control over job execution, replacing ) Tj
+T*
+(    `only`/`except` with more flexible conditions.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(90. Which strategy avoids downtime by updating subsets of servers sequentially?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Rolling updates) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 478 32.0 Tm
+(Page 19 of 22) Tj
+ET
+endstream
+endobj
+40 0 obj
+<< /Type /Page /Parent 47 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 39 0 R >>
+endobj
+41 0 obj
+<< /Length 2272 >>
+stream
+BT
+1 0 0 1 54 732 Tm
+16 TL
+/F1 11 Tf
+(    B. Blue-green) Tj
+T*
+(    C. Big bang) Tj
+T*
+(    D. Hotfix) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Rolling updates update a portion of instances at a time, maintaining ) Tj
+T*
+(    service availability during deployment.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(91. Why include performance tests in CD pipeline?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Ensure releases meet performance SLAs before production) Tj
+T*
+(    B. Replace unit tests) Tj
+T*
+(    C. Delay features) Tj
+T*
+(    D. Increase manual work) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Automated performance tests verify that changes don't degrade ) Tj
+T*
+(    responsiveness or capacity, protecting user experience.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(92. What does `only: changes` do in GitLab CI?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Runs job only when specified files change) Tj
+T*
+(    B. Runs job only on main) Tj
+T*
+(    C. Runs job only on tags) Tj
+T*
+(    D. Runs job only on schedule) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: The `changes` rule triggers jobs based on file patterns, limiting work to ) Tj
+T*
+(    relevant commits \(e.g., running docs build when docs change\).) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(93. Which tool visualizes pipeline metrics and DORA scores?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. GitLab Analytics) Tj
+T*
+(    B. Jenkins Dashboard) Tj
+T*
+(    C. Azure DevOps Insights) Tj
+T*
+(    D. All \(A and C have features; Jenkins via plugins\)) Tj
+T*
+/F2 11 Tf
+(    Answer: D) Tj
+T*
+/F1 11 Tf
+(    Explanation: GitLab and Azure DevOps provide built-in analytics; Jenkins offers plugins ) Tj
+T*
+(    for visualizing trends, enabling teams to track DORA metrics.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(94. What is deployment window?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Predefined time when deployment is allowed to minimize risk) Tj
+T*
+(    B. CI stage) Tj
+T*
+(    C. Monitoring interval) Tj
+T*
+(    D. Build slot) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Deployment windows schedule releases during low-risk periods, coordinating ) Tj
+T*
+(    teams and minimizing user impact.) Tj
+10 TL
+T*
+( ) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 478 32.0 Tm
+(Page 20 of 22) Tj
+ET
+endstream
+endobj
+42 0 obj
+<< /Type /Page /Parent 47 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 41 0 R >>
+endobj
+43 0 obj
+<< /Length 2221 >>
+stream
+BT
+1 0 0 1 54 732 Tm
+18 TL
+/F2 12 Tf
+(95. Why use automated secrets rotation?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Reduce exposure by regularly updating credentials used in pipelines) Tj
+T*
+(    B. Increase manual updates) Tj
+T*
+(    C. Avoid automation) Tj
+T*
+(    D. Keep secrets static) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Rotating secrets automatically limits risk of compromise, ensuring ) Tj
+T*
+(    credentials used by pipelines remain secure.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(96. What is ChatOps in CI/CD context?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Triggering and monitoring pipeline activities through chat platforms) Tj
+T*
+(    B. Chatting with support) Tj
+T*
+(    C. Creating chat rooms) Tj
+T*
+(    D. Using chat for deployment approvals only) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: ChatOps integrates automation with chat tools \(Slack, Teams\) to run ) Tj
+T*
+(    commands, view build status, and collaborate in real time.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(97. Why implement pipeline linting tools?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Validate syntax and best practices before pipeline execution) Tj
+T*
+(    B. Increase runtime) Tj
+T*
+(    C. Break builds) Tj
+T*
+(    D. Remove automation) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Linting ensures pipeline definitions adhere to syntax and style rules, ) Tj
+T*
+(    catching issues before pipelines fail at runtime.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(98. Which deployment pattern keeps multiple versions active and routes specific users to ) Tj
+T*
+(each?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. A/B testing) Tj
+T*
+(    B. Rolling) Tj
+T*
+(    C. Blue-green) Tj
+T*
+(    D. Hotfix) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: A/B testing runs two versions simultaneously, directing user segments to ) Tj
+T*
+(    measure performance or user response.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(99. What is mean time to recovery \(MTTR\)?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Average time to restore service after failure) Tj
+T*
+(    B. Time to deploy) Tj
+T*
+(    C. Time to test) Tj
+T*
+(    D. Time to review code) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 478 32.0 Tm
+(Page 21 of 22) Tj
+ET
+endstream
+endobj
+44 0 obj
+<< /Type /Page /Parent 47 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 43 0 R >>
+endobj
+45 0 obj
+<< /Length 752 >>
+stream
+BT
+1 0 0 1 54 732 Tm
+16 TL
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: MTTR, a DORA metric, measures how quickly teams recover from incidents, ) Tj
+T*
+(    indicating resilience of delivery process.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(100. Why maintain pipeline templates?) Tj
+16 TL
+T*
+/F1 11 Tf
+(     A. Encourage consistency and reuse across teams/projects) Tj
+T*
+(     B. Increase duplication) Tj
+T*
+(     C. Restrict customization) Tj
+T*
+(     D. Avoid automation) Tj
+T*
+/F2 11 Tf
+(     Answer: A) Tj
+T*
+/F1 11 Tf
+(     Explanation: Templates accelerate new pipeline creation with proven patterns, ensuring ) Tj
+T*
+(     consistent practices and reducing duplication.) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 478 32.0 Tm
+(Page 22 of 22) Tj
+ET
+endstream
+endobj
+46 0 obj
+<< /Type /Page /Parent 47 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 45 0 R >>
+endobj
+47 0 obj
+<< /Type /Pages /Count 22 /Kids [4 0 R 6 0 R 8 0 R 10 0 R 12 0 R 14 0 R 16 0 R 18 0 R 20 0 R 22 0 R 24 0 R 26 0 R 28 0 R 30 0 R 32 0 R 34 0 R 36 0 R 38 0 R 40 0 R 42 0 R 44 0 R 46 0 R] >>
+endobj
+48 0 obj
+<< /Type /Catalog /Pages 47 0 R >>
+endobj
+xref
+0 49
+0000000000 65535 f 
+0000000015 00000 n 
+0000000085 00000 n 
+0000000160 00000 n 
+0000002524 00000 n 
+0000002661 00000 n 
+0000004916 00000 n 
+0000005053 00000 n 
+0000007414 00000 n 
+0000007551 00000 n 
+0000010002 00000 n 
+0000010140 00000 n 
+0000012516 00000 n 
+0000012655 00000 n 
+0000014944 00000 n 
+0000015083 00000 n 
+0000017475 00000 n 
+0000017614 00000 n 
+0000019948 00000 n 
+0000020087 00000 n 
+0000022376 00000 n 
+0000022515 00000 n 
+0000024856 00000 n 
+0000024995 00000 n 
+0000027455 00000 n 
+0000027594 00000 n 
+0000029981 00000 n 
+0000030120 00000 n 
+0000032420 00000 n 
+0000032559 00000 n 
+0000034890 00000 n 
+0000035029 00000 n 
+0000037457 00000 n 
+0000037596 00000 n 
+0000039922 00000 n 
+0000040061 00000 n 
+0000042245 00000 n 
+0000042384 00000 n 
+0000044849 00000 n 
+0000044988 00000 n 
+0000047372 00000 n 
+0000047511 00000 n 
+0000049836 00000 n 
+0000049975 00000 n 
+0000052249 00000 n 
+0000052388 00000 n 
+0000053192 00000 n 
+0000053331 00000 n 
+0000053535 00000 n 
+trailer
+<< /Size 49 /Root 48 0 R >>
+startxref
+53586
+%%EOF

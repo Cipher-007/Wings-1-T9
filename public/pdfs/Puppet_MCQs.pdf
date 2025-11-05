@@ -1,0 +1,2951 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+2 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+3 0 obj
+<< /Length 2267 >>
+stream
+BT
+1 0 0 1 54 732 Tm
+26 TL
+/F2 20 Tf
+(PUPPET) Tj
+18 TL
+T*
+/F1 11 Tf
+(--------------------------------------------------------------------------------) Tj
+12 TL
+T*
+( ) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(1. What is the primary configuration language used by Puppet manifests?) Tj
+16 TL
+T*
+/F1 11 Tf
+(   A. JSON) Tj
+T*
+(   B. Puppet DSL) Tj
+T*
+(   C. YAML) Tj
+T*
+(   D. Ruby scripts only) Tj
+T*
+/F2 11 Tf
+(   Answer: B) Tj
+T*
+/F1 11 Tf
+(   Explanation: Puppet manifests are written in the Puppet Domain Specific Language \(DSL\), a) Tj
+T*
+(    declarative language with Ruby-like syntax tailored for infrastructure definitions.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(2. Which command applies a Puppet manifest locally without contacting the master?) Tj
+16 TL
+T*
+/F1 11 Tf
+(   A. puppet agent --test) Tj
+T*
+(   B. puppet apply manifest.pp) Tj
+T*
+(   C. puppet master --apply) Tj
+T*
+(   D. puppet run manifest.pp) Tj
+T*
+/F2 11 Tf
+(   Answer: B) Tj
+T*
+/F1 11 Tf
+(   Explanation: `puppet apply` evaluates manifests on the local machine using the current ) Tj
+T*
+(   settings and facts, allowing standalone execution without a Puppet server.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(3. Where are Puppet modules typically stored on a master by default?) Tj
+16 TL
+T*
+/F1 11 Tf
+(   A. /etc/puppetlabs/code/modules) Tj
+T*
+(   B. /var/lib/puppet/modules) Tj
+T*
+(   C. /opt/puppet/modules) Tj
+T*
+(   D. /usr/share/puppet/modules) Tj
+T*
+/F2 11 Tf
+(   Answer: A) Tj
+T*
+/F1 11 Tf
+(   Explanation: The default environment path places modules under ) Tj
+T*
+(   `/etc/puppetlabs/code/modules`, where environment-specific `modules/` directories live.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(4. What is the purpose of Puppet classes?) Tj
+16 TL
+T*
+/F1 11 Tf
+(   A. Define collections of resources for reuse) Tj
+T*
+(   B. Manage network interfaces) Tj
+T*
+(   C. Store Hiera data) Tj
+T*
+(   D. Configure agents) Tj
+T*
+/F2 11 Tf
+(   Answer: A) Tj
+T*
+/F1 11 Tf
+(   Explanation: Classes group resources into reusable components that can be declared in ) Tj
+T*
+(   manifests or assigned via classification.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(5. Which Puppet resource type manages packages?) Tj
+16 TL
+T*
+/F1 11 Tf
+(   A. package) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 478 32.0 Tm
+(Page 1 of 22) Tj
+ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 47 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Length 2212 >>
+stream
+BT
+1 0 0 1 54 732 Tm
+16 TL
+/F1 11 Tf
+(   B. pkg) Tj
+T*
+(   C. install) Tj
+T*
+(   D. module) Tj
+T*
+/F2 11 Tf
+(   Answer: A) Tj
+T*
+/F1 11 Tf
+(   Explanation: The built-in `package` type abstracts operating system package managers, ) Tj
+T*
+(   ensuring specific packages are installed or removed.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(6. What does the command `puppet agent -t` do?) Tj
+16 TL
+T*
+/F1 11 Tf
+(   A. Tests module syntax) Tj
+T*
+(   B. Runs Puppet agent in one-off mode retrieving catalog from master) Tj
+T*
+(   C. Compiles catalog on master) Tj
+T*
+(   D. Generates certificate) Tj
+T*
+/F2 11 Tf
+(   Answer: B) Tj
+T*
+/F1 11 Tf
+(   Explanation: `puppet agent -t` \(test mode\) forces an immediate run, fetching the catalog ) Tj
+T*
+(   from the Puppet server and applying it to the node.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(7. Which tool provides role- and profile-based classification in Puppet Enterprise?) Tj
+16 TL
+T*
+/F1 11 Tf
+(   A. Node classifier \(Console\)) Tj
+T*
+(   B. Hiera) Tj
+T*
+(   C. Bolt) Tj
+T*
+(   D. PuppetDB) Tj
+T*
+/F2 11 Tf
+(   Answer: A) Tj
+T*
+/F1 11 Tf
+(   Explanation: Puppet Enterprise includes the console's node classifier, offering a GUI to ) Tj
+T*
+(   assign roles, classes, and parameters to nodes.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(8. What is PuppetDB used for?) Tj
+16 TL
+T*
+/F1 11 Tf
+(   A. Store and query collected data and catalogs) Tj
+T*
+(   B. Manage modules) Tj
+T*
+(   C. Provide GUI) Tj
+T*
+(   D. Execute Bolt plans) Tj
+T*
+/F2 11 Tf
+(   Answer: A) Tj
+T*
+/F1 11 Tf
+(   Explanation: PuppetDB stores facts, catalogs, and reports, enabling complex queries and ) Tj
+T*
+(   driving exported resources across nodes.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(9. How do you declare a class in a manifest?) Tj
+16 TL
+T*
+/F1 11 Tf
+(   A. include classname) Tj
+T*
+(   B. class { 'classname': }) Tj
+T*
+(   C. Both include and resource-like declarations) Tj
+T*
+(   D. use classname) Tj
+T*
+/F2 11 Tf
+(   Answer: C) Tj
+T*
+/F1 11 Tf
+(   Explanation: Puppet allows including classes with `include` or declaring them like ) Tj
+T*
+(   resources for parameterized usage, offering flexibility in manifests.) Tj
+10 TL
+T*
+( ) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 478 32.0 Tm
+(Page 2 of 22) Tj
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 47 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Length 2171 >>
+stream
+BT
+1 0 0 1 54 732 Tm
+18 TL
+/F2 12 Tf
+(10. Which file defines metadata for a Puppet module?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. metadata.json) Tj
+T*
+(    B. metadata.yaml) Tj
+T*
+(    C. Modulefile) Tj
+T*
+(    D. module.rb) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: `metadata.json` contains module name, version, dependencies, and ) Tj
+T*
+(    compatibility data, required for the Puppet Forge and module tooling.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(11. What is Hiera in Puppet?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Hierarchical data lookup system for separating data from code) Tj
+T*
+(    B. Module packaging tool) Tj
+T*
+(    C. GUI console) Tj
+T*
+(    D. Compliance scanner) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Hiera lets you store configuration data in hierarchical backends \(YAML, ) Tj
+T*
+(    JSON, etc.\), allowing manifests to remain data-free and reusable.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(12. Which file configures Puppet settings globally?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. puppet.conf) Tj
+T*
+(    B. puppet.ini) Tj
+T*
+(    C. puppet.cfg) Tj
+T*
+(    D. settings.yaml) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: `puppet.conf` governs settings for agent and server components, specifying ) Tj
+T*
+(    environment directories, server addresses, and more.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(13. What command validates Puppet manifest syntax?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. puppet parser validate site.pp) Tj
+T*
+(    B. puppet manifest check site.pp) Tj
+T*
+(    C. puppet lint site.pp) Tj
+T*
+(    D. puppet verify site.pp) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: `puppet parser validate` ensures manifests are syntactically correct; ) Tj
+T*
+(    puppet-lint adds style checks on top.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(14. How can you order resource execution in Puppet?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Using `->` chaining arrow or before/require metaparameters) Tj
+T*
+(    B. Using run_list) Tj
+T*
+(    C. Using include order) Tj
+T*
+(    D. Using manifest numbering) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 478 32.0 Tm
+(Page 3 of 22) Tj
+ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 47 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 7 0 R >>
+endobj
+9 0 obj
+<< /Length 2361 >>
+stream
+BT
+1 0 0 1 54 732 Tm
+16 TL
+/F1 11 Tf
+(    Explanation: Relationship metaparameters \(`before`, `require`, `notify`, `subscribe`\) ) Tj
+T*
+(    and chaining arrows enforce dependency ordering between resources.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(15. Which component stores facts collected by Facter?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. PuppetDB) Tj
+T*
+(    B. Hiera) Tj
+T*
+(    C. Puppet master) Tj
+T*
+(    D. Bolt) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: When configured, PuppetDB persists node facts collected by Facter, making ) Tj
+T*
+(    them searchable and available for exported resources.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(16. What is a node definition in Puppet?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Manifest block matching specific node names or patterns) Tj
+T*
+(    B. Module metadata) Tj
+T*
+(    C. Hiera lookup) Tj
+T*
+(    D. Puppet agent install) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Node definitions specify classes and resources for particular nodes or ) Tj
+T*
+(    regex patterns, allowing per-node overrides.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(17. How do you install a module from Puppet Forge?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. puppet module install author-modulename) Tj
+T*
+(    B. puppet forge install module) Tj
+T*
+(    C. puppet module get modulename) Tj
+T*
+(    D. puppet install module author/modulename) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: `puppet module install` pulls modules from Forge into the module path, ) Tj
+T*
+(    optionally specifying namespaces like `puppetlabs-apache`.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(18. Which Puppet resource manages file content from templates?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. file { ...: content => template\('module/file.erb'\) }) Tj
+T*
+(    B. template resource) Tj
+T*
+(    C. config resource) Tj
+T*
+(    D. manifest resource) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: The `file` resource can use the `template\(\)` function to render ERB ) Tj
+T*
+(    templates and set file content dynamically based on variables.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(19. What is the default frequency of Puppet agent runs?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Every 10 minutes) Tj
+T*
+(    B. Every 30 minutes) Tj
+T*
+(    C. Every 60 minutes) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 478 32.0 Tm
+(Page 4 of 22) Tj
+ET
+endstream
+endobj
+10 0 obj
+<< /Type /Page /Parent 47 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 9 0 R >>
+endobj
+11 0 obj
+<< /Length 2227 >>
+stream
+BT
+1 0 0 1 54 732 Tm
+16 TL
+/F1 11 Tf
+(    D. Once per day) Tj
+T*
+/F2 11 Tf
+(    Answer: B) Tj
+T*
+/F1 11 Tf
+(    Explanation: By default, Puppet agent has a 30-minute run interval, configurable via ) Tj
+T*
+(    `runinterval` in puppet.conf.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(20. Which command enables detailed debugging output for Puppet agent?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. puppet agent -t --debug) Tj
+T*
+(    B. puppet agent -d) Tj
+T*
+(    C. puppet agent --verbose) Tj
+T*
+(    D. puppet agent --trace) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Adding `--debug` to `puppet agent -t` produces verbose logs helpful for ) Tj
+T*
+(    troubleshooting catalog application.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(21. What does Facter provide?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. System facts that Puppet uses in manifests) Tj
+T*
+(    B. Module testing) Tj
+T*
+(    C. Policy enforcement) Tj
+T*
+(    D. Graphical UI) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Facter collects facts such as OS, memory, and IP addresses, which Puppet ) Tj
+T*
+(    references in manifests for conditional logic.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(22. How do you ensure a file resource is removed?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. ensure => absent) Tj
+T*
+(    B. ensure => deleted) Tj
+T*
+(    C. ensure => remove) Tj
+T*
+(    D. action => delete) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Setting `ensure => absent` on a `file` \(or package/service\) resource tells ) Tj
+T*
+(    Puppet to remove it if present.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(23. Which Puppet metaparameter sets dependency on another resource?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. require) Tj
+T*
+(    B. before) Tj
+T*
+(    C. subscribe) Tj
+T*
+(    D. notify) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: `require` ensures that the referenced resource is managed before the ) Tj
+T*
+(    current one, enforcing order based on dependency.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(24. What is the effect of `notify` metaparameter?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Triggers another resource to refresh when the notifying resource changes) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 478 32.0 Tm
+(Page 5 of 22) Tj
+ET
+endstream
+endobj
+12 0 obj
+<< /Type /Page /Parent 47 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 11 0 R >>
+endobj
+13 0 obj
+<< /Length 2316 >>
+stream
+BT
+1 0 0 1 54 732 Tm
+16 TL
+/F1 11 Tf
+(    B. Sends email) Tj
+T*
+(    C. Logs warning) Tj
+T*
+(    D. Runs command immediately) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: `notify` establishes a relationship where changes in one resource cause the) Tj
+T*
+(     notified resource to refresh, often used with `service` resources.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(25. How are conditional statements written in Puppet?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. if condition { } elsif { } else { }) Tj
+T*
+(    B. condition ? {} : {}) Tj
+T*
+(    C. when condition { }) Tj
+T*
+(    D. case { } only) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Puppet's `if/elsif/else` syntax mirrors Ruby and allows branching logic ) Tj
+T*
+(    within manifests; case statements are also supported separately.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(26. What does `puppet config print confdir` output?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Path to Puppet configuration directory) Tj
+T*
+(    B. Config contents) Tj
+T*
+(    C. Module directory) Tj
+T*
+(    D. Log directory) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: The command prints the current value of `confdir`, showing where ) Tj
+T*
+(    puppet.conf and related files reside for the given user/component.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(27. Which command lists installed modules?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. puppet module list) Tj
+T*
+(    B. puppet module show) Tj
+T*
+(    C. puppet module status) Tj
+T*
+(    D. puppet list modules) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: `puppet module list` scans the module path and displays installed modules ) Tj
+T*
+(    and their versions, indicating from which path they load.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(28. What is the role of `environment.conf`?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Configure environment-specific settings like modulepath and manifest) Tj
+T*
+(    B. Configure agent certificates) Tj
+T*
+(    C. Manage Hiera hierarchy) Tj
+T*
+(    D. Configure PuppetDB) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Each environment can define `environment.conf` to tailor module paths, ) Tj
+T*
+(    manifest directories, and config version scripts.) Tj
+10 TL
+T*
+( ) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 478 32.0 Tm
+(Page 6 of 22) Tj
+ET
+endstream
+endobj
+14 0 obj
+<< /Type /Page /Parent 47 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 13 0 R >>
+endobj
+15 0 obj
+<< /Length 2284 >>
+stream
+BT
+1 0 0 1 54 732 Tm
+18 TL
+/F2 12 Tf
+(29. How can you declare a defined resource type?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Using `define` to create new resource definitions) Tj
+T*
+(    B. Using class) Tj
+T*
+(    C. Using module) Tj
+T*
+(    D. Using node) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Defined resource types \(`define`\) encapsulate reusable resource blocks that) Tj
+T*
+(     require parameters, similar to functions for resources.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(30. Which statement about Puppet environments is correct?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Allow multiple versions of code to be served for different nodes) Tj
+T*
+(    B. Only available in Puppet Enterprise) Tj
+T*
+(    C. Replace modules) Tj
+T*
+(    D. Manage user accounts) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Environments segregate manifests and modules, enabling dev/test/prod code ) Tj
+T*
+(    bases and preventing code changes from affecting all nodes at once.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(31. What is a Puppet catalog?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Compiled list of resources and relationships stored on master delivered to agent) Tj
+T*
+(    B. Module repository) Tj
+T*
+(    C. Hiera data set) Tj
+T*
+(    D. Bolt inventory) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: The catalog is the manifest compiled with node data, containing the desired) Tj
+T*
+(     state applied by the agent on each run.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(32. Which command prints the compiled catalog without applying it?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. puppet agent -t --noop) Tj
+T*
+(    B. puppet agent --catalog-only) Tj
+T*
+(    C. puppet preview) Tj
+T*
+(    D. puppet apply --noop) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: `--noop` performs a dry run, showing what changes would occur without ) Tj
+T*
+(    enforcing them, similar to check mode.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(33. What does `subscribe` metaparameter do?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Monitors another resource and refreshes if it changes) Tj
+T*
+(    B. Creates dependency order) Tj
+T*
+(    C. Notifies user) Tj
+T*
+(    D. Schedules run) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 478 32.0 Tm
+(Page 7 of 22) Tj
+ET
+endstream
+endobj
+16 0 obj
+<< /Type /Page /Parent 47 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 15 0 R >>
+endobj
+17 0 obj
+<< /Length 2444 >>
+stream
+BT
+1 0 0 1 54 732 Tm
+16 TL
+/F1 11 Tf
+(    Explanation: `subscribe` is the inverse of `notify`, causing the current resource to ) Tj
+T*
+(    refresh when the subscribed resource changes.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(34. How do you set file ownership in Puppet?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. file { '/path': owner => 'user', group => 'group' }) Tj
+T*
+(    B. file { '/path': chown => 'user:group' }) Tj
+T*
+(    C. file { '/path': ensure => owner\(user\) }) Tj
+T*
+(    D. file { '/path': ensure => 'owned' }) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: The `file` resource accepts `owner`, `group`, and `mode` attributes to ) Tj
+T*
+(    manage file permissions declaratively.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(35. Which directory contains environment manifests by default?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. environments/<env>/manifests) Tj
+T*
+(    B. manifests/env) Tj
+T*
+(    C. site/manifests) Tj
+T*
+(    D. env/manifests) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: In the directory environment layout, manifests live under ) Tj
+T*
+(    `environments/{env}/manifests`, typically with a `site.pp`.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(36. How do you limit Puppet agent run to subset of classes?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Use `puppet agent -t --tags class1,class2`) Tj
+T*
+(    B. Use `puppet agent --limit`) Tj
+T*
+(    C. Use `puppet agent -c class1`) Tj
+T*
+(    D. Use `puppet apply --only`) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: The `--tags` option filters resources by tag \(class names generate tags ) Tj
+T*
+(    automatically\), enabling partial runs for troubleshooting.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(37. What is a resource type alias declared with `resource { 'title': alias => ['alt'] }` ) Tj
+T*
+(used for?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Provide additional references for same resource instance) Tj
+T*
+(    B. Rename resource type) Tj
+T*
+(    C. Create new resource) Tj
+T*
+(    D. Manage tags) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Aliases let other resources refer to the same instance under different ) Tj
+T*
+(    names, useful for cross-resource relationships.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(38. What is the recommended way to separate code from data?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Use Hiera to store data, Puppet manifests for code) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 478 32.0 Tm
+(Page 8 of 22) Tj
+ET
+endstream
+endobj
+18 0 obj
+<< /Type /Page /Parent 47 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 17 0 R >>
+endobj
+19 0 obj
+<< /Length 2197 >>
+stream
+BT
+1 0 0 1 54 732 Tm
+16 TL
+/F1 11 Tf
+(    B. Hard-code data in manifests) Tj
+T*
+(    C. Use modules only) Tj
+T*
+(    D. Use external node classifiers exclusively) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Hiera keeps data external, allowing manifests to stay generic while data is) Tj
+T*
+(     layered per environment, role, or site.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(39. How can you enforce strict variable checking?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Set `strict_variables = true` in puppet.conf) Tj
+T*
+(    B. Use `puppet strict`) Tj
+T*
+(    C. Use `--strict` flag on agent) Tj
+T*
+(    D. Use Hiera flag) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Enabling `strict_variables` causes Puppet to error when undefined variables) Tj
+T*
+(     are referenced, reducing silent typos.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(40. Which command stops Puppet agent service on Linux systemd?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. systemctl stop puppet) Tj
+T*
+(    B. service puppet stop) Tj
+T*
+(    C. Both A and B depending on system) Tj
+T*
+(    D. puppet agent --stop) Tj
+T*
+/F2 11 Tf
+(    Answer: C) Tj
+T*
+/F1 11 Tf
+(    Explanation: Depending on the init system, you can use `systemctl` or `service` to ) Tj
+T*
+(    control the Puppet agent service.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(41. What is the default file extension for Puppet manifests?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. .pp) Tj
+T*
+(    B. .puppet) Tj
+T*
+(    C. .rb) Tj
+T*
+(    D. .conf) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Puppet manifests use the `.pp` extension, short for Puppet Program, and ) Tj
+T*
+(    Puppet loads files accordingly.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(42. Which built-in function merges two hashes?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. merge\(hash1, hash2\)) Tj
+T*
+(    B. hash1 + hash2) Tj
+T*
+(    C. join\(hash1, hash2\)) Tj
+T*
+(    D. append\(hash1, hash2\)) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: The `merge` function combines key/value pairs from multiple hashes, with ) Tj
+T*
+(    later hashes overriding earlier ones for duplicate keys.) Tj
+10 TL
+T*
+( ) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 478 32.0 Tm
+(Page 9 of 22) Tj
+ET
+endstream
+endobj
+20 0 obj
+<< /Type /Page /Parent 47 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 19 0 R >>
+endobj
+21 0 obj
+<< /Length 2301 >>
+stream
+BT
+1 0 0 1 54 732 Tm
+18 TL
+/F2 12 Tf
+(43. How do you run Puppet in daemonized mode?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. puppet agent --daemonize) Tj
+T*
+(    B. puppet agent --service) Tj
+T*
+(    C. puppet run --background) Tj
+T*
+(    D. puppet apply --daemon) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: `--daemonize` starts puppet agent as a background process that runs at ) Tj
+T*
+(    intervals instead of exiting after one run.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(44. What is the effect of `ensure => latest` for package resource?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Keeps package at latest available version) Tj
+T*
+(    B. Installs once) Tj
+T*
+(    C. Removes package) Tj
+T*
+(    D. Reinstalls always) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: `ensure => latest` tells Puppet to upgrade the package if a newer version ) Tj
+T*
+(    exists during runs.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(45. Which command triggers Puppet Bolt plan execution?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. bolt plan run planname) Tj
+T*
+(    B. puppet bolt run planname) Tj
+T*
+(    C. bolt run planname) Tj
+T*
+(    D. puppet plan run planname) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Bolt is invoked directly \(`bolt plan run`\), enabling task and plan ) Tj
+T*
+(    execution without requiring the Puppet agent infrastructure.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(46. What is the difference between `require` and `before`?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. require ensures current resource runs after dependency; before ensures it runs before) Tj
+T*
+(     resource) Tj
+T*
+(    B. require checks for file existence; before delays run) Tj
+T*
+(    C. before triggers refresh) Tj
+T*
+(    D. They are identical) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: `require` creates a dependency on another resource finishing first, whereas) Tj
+T*
+(     `before` declares that the current resource must complete before the specified one.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(47. Which command backs up current certificate on agent?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. puppet ssl clean) Tj
+T*
+(    B. puppet ssl regenerate) Tj
+T*
+(    C. puppet certificate backup) Tj
+T*
+(    D. puppet ssl save) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 478 32.0 Tm
+(Page 10 of 22) Tj
+ET
+endstream
+endobj
+22 0 obj
+<< /Type /Page /Parent 47 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 21 0 R >>
+endobj
+23 0 obj
+<< /Length 2341 >>
+stream
+BT
+1 0 0 1 54 732 Tm
+16 TL
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: `puppet ssl clean` removes certificates, keys, and CSR files, effectively ) Tj
+T*
+(    resetting registration so a new certificate can be requested.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(48. What is the purpose of a Puppet report?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Record the outcome of agent run sent to master for auditing) Tj
+T*
+(    B. Install packages) Tj
+T*
+(    C. Manage modules) Tj
+T*
+(    D. Provide user interface) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Reports summarize each run's changes, resource statuses, and errors, stored) Tj
+T*
+(     on the master \(or PuppetDB\) for compliance tracking.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(49. How do you compile a catalog without applying and view resource relationships ) Tj
+T*
+(graphically?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. puppet agent -t --noop --graph) Tj
+T*
+(    B. puppet graph) Tj
+T*
+(    C. puppet describe) Tj
+T*
+(    D. puppet apply --graph) Tj
+T*
+/F2 11 Tf
+(    Answer: D) Tj
+T*
+/F1 11 Tf
+(    Explanation: `puppet apply --graph` produces a DOT graph of resource relationships, ) Tj
+T*
+(    useful for visualization, while still allowing no-op runs.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(50. What is the significance of `site.pp`?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Main manifest entry point for default environment) Tj
+T*
+(    B. Hiera configuration) Tj
+T*
+(    C. Module metadata) Tj
+T*
+(    D. PuppetDB settings) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(Explanation: `site.pp` is the default manifest loaded for nodes in an environment if no ) Tj
+T*
+(other classification is configured, commonly including node definitions.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(51. Which command sets environment for an agent run temporarily?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. puppet agent -t --environment=dev) Tj
+T*
+(    B. puppet apply --environment dev) Tj
+T*
+(    C. puppet env dev) Tj
+T*
+(    D. puppet config env dev) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Passing `--environment` on the agent run forces it to use a specific ) Tj
+T*
+(    environment for that invocation, handy for testing changes.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(52. What is hiera.yaml used for?) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 478 32.0 Tm
+(Page 11 of 22) Tj
+ET
+endstream
+endobj
+24 0 obj
+<< /Type /Page /Parent 47 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 23 0 R >>
+endobj
+25 0 obj
+<< /Length 2282 >>
+stream
+BT
+1 0 0 1 54 732 Tm
+16 TL
+/F1 11 Tf
+(    A. Define data hierarchy for Hiera lookups) Tj
+T*
+(    B. Configure PuppetDB) Tj
+T*
+(    C. Manage modules) Tj
+T*
+(    D. Configure agent runs) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: `hiera.yaml` declares hierarchical data layers and backends so Puppet knows) Tj
+T*
+(     how to resolve lookup keys.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(53. How can you iterate over an array in Puppet DSL?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. array.each |$item| { }) Tj
+T*
+(    B. for item in array { }) Tj
+T*
+(    C. array.map { }) Tj
+T*
+(    D. loop array { }) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Puppet DSL supports Ruby-style `each` iterations using lambda syntax ) Tj
+T*
+(    `|$item|`, enabling loops within manifests.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(54. Which resource ensures service restarts when config file changes?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. file -> service relationship using notify/subscribe) Tj
+T*
+(    B. service with auto_restart) Tj
+T*
+(    C. package ensures restart) Tj
+T*
+(    D. manifest ensures order automatically) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Using `notify` or `subscribe` links the file resource to the service, ) Tj
+T*
+(    causing the service to refresh when configuration changes.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(55. What is the Puppet Enterprise Console primarily used for?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. GUI for node classification, reporting, and control) Tj
+T*
+(    B. Code editing) Tj
+T*
+(    C. Module packaging) Tj
+T*
+(    D. Hiera management only) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: The console provides role-based access, classification, run reports, and ) Tj
+T*
+(    orchestrations across Puppet-managed infrastructure.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(56. How do you store encrypted data in Hiera?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Use eyaml backend with public/private keys) Tj
+T*
+(    B. Use base64 encoding) Tj
+T*
+(    C. Use gzip) Tj
+T*
+(    D. Use hashed values) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: hiera-eyaml plugin allows encrypting data with public/private keys, keeping) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 478 32.0 Tm
+(Page 12 of 22) Tj
+ET
+endstream
+endobj
+26 0 obj
+<< /Type /Page /Parent 47 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 25 0 R >>
+endobj
+27 0 obj
+<< /Length 2329 >>
+stream
+BT
+1 0 0 1 54 732 Tm
+16 TL
+/F1 11 Tf
+(     secrets in version control while decrypting at runtime.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(57. Which command clears agent certificate and requests new one?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. puppet ssl clean && puppet agent -t) Tj
+T*
+(    B. puppet cert regenerate) Tj
+T*
+(    C. puppet agent --rekey) Tj
+T*
+(    D. puppet ssl reset) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Cleaning SSL removes existing credentials, and the subsequent agent run ) Tj
+T*
+(    submits a new CSR to the CA for signing.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(58. What does `puppet resource user bob ensure=present` do?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Displays resource definition for user bob) Tj
+T*
+(    B. Ensures user bob is present) Tj
+T*
+(    C. Removes user bob) Tj
+T*
+(    D. Lists all users) Tj
+T*
+/F2 11 Tf
+(    Answer: B) Tj
+T*
+/F1 11 Tf
+(    Explanation: `puppet resource` can manage resources ad hoc; specifying `ensure=present` ) Tj
+T*
+(    enforces the user's existence with default properties.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(59. How can you list facter facts?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. facter) Tj
+T*
+(    B. puppet facts show) Tj
+T*
+(    C. bolt facts list) Tj
+T*
+(    D. puppet agent --facts) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Running `facter` prints all collected facts; `puppet facts show` can also ) Tj
+T*
+(    list them, but `facter` is the direct tool.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(60. Which command shows the status of Puppet services on Puppet Enterprise?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. puppet infra status) Tj
+T*
+(    B. puppet enterprise status) Tj
+T*
+(    C. puppet status) Tj
+T*
+(    D. puppet service status) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: `puppet infra status` checks the health of Puppet Enterprise services ) Tj
+T*
+(    \(orchestration, database, etc.\) to aid troubleshooting.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(61. How do you restrict a class to certain nodes via node definitions?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. node 'hostname' { include classname }) Tj
+T*
+(    B. class { 'hostname': include => classname }) Tj
+T*
+(    C. class { 'classname': nodes => ['host'] }) Tj
+T*
+(    D. Use tags) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 478 32.0 Tm
+(Page 13 of 22) Tj
+ET
+endstream
+endobj
+28 0 obj
+<< /Type /Page /Parent 47 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 27 0 R >>
+endobj
+29 0 obj
+<< /Length 2330 >>
+stream
+BT
+1 0 0 1 54 732 Tm
+16 TL
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Node definitions in `site.pp` can include classes based on node names, ) Tj
+T*
+(    providing node-specific configuration.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(62. Which tool allows task-based remote execution without writing manifests?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Puppet Bolt) Tj
+T*
+(    B. PuppetDB) Tj
+T*
+(    C. Hiera) Tj
+T*
+(    D. Puppet Server) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Bolt runs tasks, scripts, and plans across nodes via SSH/WinRM, offering ad) Tj
+T*
+(     hoc automation outside of the agent model.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(63. What is the difference between `storeconfigs` and PuppetDB?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. PuppetDB is modern implementation storing catalogs and facts; storeconfigs used older) Tj
+T*
+(     database backends) Tj
+T*
+(    B. storeconfigs is CLI tool; PuppetDB runs on agent) Tj
+T*
+(    C. storeconfigs is for Hiera) Tj
+T*
+(    D. No difference) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Storeconfigs was an older mechanism for sharing exported resources using ) Tj
+T*
+(    various databases, now superseded by PuppetDB's efficient storage and query ) Tj
+T*
+(    capabilities.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(64. How do you test Puppet code using unit tests?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. RSpec-Puppet) Tj
+T*
+(    B. Serverspec) Tj
+T*
+(    C. InSpec) Tj
+T*
+(    D. Lint) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: RSpec-Puppet provides unit testing for Puppet manifests and modules, ) Tj
+T*
+(    verifying catalog compilation expectations.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(65. Which log file records puppetserver events?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. /var/log/puppetlabs/puppetserver/puppetserver.log) Tj
+T*
+(    B. /var/log/puppet/master.log) Tj
+T*
+(    C. /var/log/puppet/agent.log) Tj
+T*
+(    D. /var/log/puppetdb/puppetdb.log) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Puppetserver logs under `/var/log/puppetlabs/puppetserver`, capturing API ) Tj
+T*
+(    requests and catalog compilation messages.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(66. What is the default user for Puppet agent service?) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 478 32.0 Tm
+(Page 14 of 22) Tj
+ET
+endstream
+endobj
+30 0 obj
+<< /Type /Page /Parent 47 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 29 0 R >>
+endobj
+31 0 obj
+<< /Length 2292 >>
+stream
+BT
+1 0 0 1 54 732 Tm
+16 TL
+/F1 11 Tf
+(    A. puppet) Tj
+T*
+(    B. root or Administrator depending on OS) Tj
+T*
+(    C. puppet-agent) Tj
+T*
+(    D. nobody) Tj
+T*
+/F2 11 Tf
+(    Answer: B) Tj
+T*
+/F1 11 Tf
+(    Explanation: On Unix systems puppet runs as root to manage system resources; on Windows ) Tj
+T*
+(    it runs as LocalSystem/Administrator.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(67. Which Puppet feature allows parameterized classes?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. class classname \($param="default"\) { }) Tj
+T*
+(    B. define class\($param\)) Tj
+T*
+(    C. class { $param }) Tj
+T*
+(    D. module param) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Classes can accept parameters, providing default values and enabling `class) Tj
+T*
+(     { 'classname': param => value }` declarations.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(68. How do you ensure a cron job exists?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. cron { 'jobname': command => '/path/script', user => 'root', ensure => present }) Tj
+T*
+(    B. schedule { }) Tj
+T*
+(    C. job { }) Tj
+T*
+(    D. plan { }) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Puppet's `cron` type manages cron entries; specifying `ensure => present` ) Tj
+T*
+(    with the command and schedule enforces the job.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(69. What is an ENC \(External Node Classifier\)?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. External service providing node classification data to Puppet master) Tj
+T*
+(    B. Module metadata) Tj
+T*
+(    C. Hiera backend) Tj
+T*
+(    D. Puppet agent configuration file) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: An ENC is a script or service that Puppet calls to determine classes and ) Tj
+T*
+(    parameters for nodes, allowing integration with CMDBs or custom systems.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(70. Which modulepath precedence is correct?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. environment modulepath, modulepath from puppet.conf, system modules) Tj
+T*
+(    B. system modules first) Tj
+T*
+(    C. puppet.conf only) Tj
+T*
+(    D. environment only) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Puppet checks the environment-specific modulepath first, followed by the ) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 478 32.0 Tm
+(Page 15 of 22) Tj
+ET
+endstream
+endobj
+32 0 obj
+<< /Type /Page /Parent 47 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 31 0 R >>
+endobj
+33 0 obj
+<< /Length 2175 >>
+stream
+BT
+1 0 0 1 54 732 Tm
+16 TL
+/F1 11 Tf
+(    global modulepath, ensuring environment modules override global ones.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(71. How do you test Puppet manifests for style issues?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. puppet-lint) Tj
+T*
+(    B. puppet format) Tj
+T*
+(    C. puppet style check) Tj
+T*
+(    D. puppet fmt) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: `puppet-lint` analyzes manifests for best practices and style violations, ) Tj
+T*
+(    complementing syntax validation.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(72. Which command runs Bolt tasks from module?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. bolt task run module::task) Tj
+T*
+(    B. puppet bolt task run module::task) Tj
+T*
+(    C. bolt run module::task) Tj
+T*
+(    D. puppet task run module::task) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Bolt tasks are invoked using `bolt task run <module>::<task>`, optionally ) Tj
+T*
+(    passing parameters via CLI flags or JSON.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(73. How do you disable Puppet agent from automatically running?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. puppet agent --disable "reason") Tj
+T*
+(    B. puppet stop) Tj
+T*
+(    C. puppet agent --off) Tj
+T*
+(    D. puppet disable auto) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Disabling the agent writes a lockfile preventing scheduled runs until ) Tj
+T*
+(    `puppet agent --enable` is executed.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(74. Which command re-enables Puppet agent after disable?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. puppet agent --enable) Tj
+T*
+(    B. puppet agent --start) Tj
+T*
+(    C. puppet enable) Tj
+T*
+(    D. puppet agent --resume) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: `puppet agent --enable` removes the disable lockfile so agent resumes ) Tj
+T*
+(    scheduled runs.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(75. What is the purpose of `puppet lookup` command?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Query Hiera data for specified keys) Tj
+T*
+(    B. List nodes) Tj
+T*
+(    C. Lookup certificates) Tj
+T*
+(    D. Search modules) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 478 32.0 Tm
+(Page 16 of 22) Tj
+ET
+endstream
+endobj
+34 0 obj
+<< /Type /Page /Parent 47 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 33 0 R >>
+endobj
+35 0 obj
+<< /Length 2373 >>
+stream
+BT
+1 0 0 1 54 732 Tm
+16 TL
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: `puppet lookup` emulates Hiera lookups, showing resolution details for data) Tj
+T*
+(     keys, which aids debugging data hierarchies.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(76. How do you specify array values in Hiera YAML?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. key:) Tj
+15 TL
+T*
+(       - item1) Tj
+T*
+(       - item2) Tj
+16 TL
+T*
+(    B. key: [item1, item2]) Tj
+T*
+(    C. Both forms) Tj
+T*
+(    D. Comma separated string) Tj
+T*
+/F2 11 Tf
+(    Answer: C) Tj
+T*
+/F1 11 Tf
+(    Explanation: YAML supports both block \(`- item`\) and inline \(`[item1, item2]`\) array ) Tj
+T*
+(    syntax, so either representation is valid for Hiera data.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(77. What is the difference between `notify` resource type and `notify` metaparameter?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. notify resource prints message; notify metaparameter triggers refresh) Tj
+T*
+(    B. notify resource triggers refresh) Tj
+T*
+(    C. Both same) Tj
+T*
+(    D. notify metaparameter logs message) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: The `notify` resource simply logs messages during runs, while the `notify` ) Tj
+T*
+(    metaparameter manages dependency-triggered refreshes.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(78. How can you ensure Puppet agent uses cached catalog when master unavailable?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Enable `use_cached_catalog = true` in puppet.conf) Tj
+T*
+(    B. Set `catalog_cache = true`) Tj
+T*
+(    C. Use `puppet agent --cache`) Tj
+T*
+(    D. Not possible) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Setting `use_cached_catalog` directs the agent to fall back to cached ) Tj
+T*
+(    catalogs if the server cannot be reached, providing resilience.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(79. Which tool orchestrates multi-node deployments with Bolt?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Bolt plans) Tj
+T*
+(    B. Hiera) Tj
+T*
+(    C. PuppetDB) Tj
+T*
+(    D. Puppet apply) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Bolt plans coordinate multi-step workflows across nodes, combining tasks, ) Tj
+T*
+(    command execution, and conditional logic.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(80. How do you list certificate requests on Puppet CA?) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 478 32.0 Tm
+(Page 17 of 22) Tj
+ET
+endstream
+endobj
+36 0 obj
+<< /Type /Page /Parent 47 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 35 0 R >>
+endobj
+37 0 obj
+<< /Length 2246 >>
+stream
+BT
+1 0 0 1 54 732 Tm
+16 TL
+/F1 11 Tf
+(    A. puppetserver ca list) Tj
+T*
+(    B. puppet cert list) Tj
+T*
+(    C. puppet ssl list) Tj
+T*
+(    D. puppet ca list) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: In modern Puppet, `puppetserver ca` commands manage certificates, including) Tj
+T*
+(     listing outstanding signing requests.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(81. What is exported resources feature?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Allows nodes to export resources collected by other nodes via PuppetDB) Tj
+T*
+(    B. Export manifests to JSON) Tj
+T*
+(    C. Export modules) Tj
+T*
+(    D. Export logs) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Exported resources let nodes publish resources to PuppetDB using `@@` ) Tj
+T*
+(    syntax, which other nodes can collect to build relationships like load balancer pools.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(82. Which command compiles a catalog for a node without applying?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. puppetserver ca compile) Tj
+T*
+(    B. puppet master --compile <node>) Tj
+T*
+(    C. puppetserver legacy compile) Tj
+T*
+(    D. puppet compile <node>) Tj
+T*
+/F2 11 Tf
+(    Answer: D) Tj
+T*
+/F1 11 Tf
+(    Explanation: `puppet compile <certname>` requests the master to compile and output the ) Tj
+T*
+(    catalog for the specified node, without delivering it to an agent.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(83. What is the default user interface port for Puppet Enterprise console?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. 443) Tj
+T*
+(    B. 3000) Tj
+T*
+(    C. 8143) Tj
+T*
+(    D. 8081) Tj
+T*
+/F2 11 Tf
+(    Answer: C) Tj
+T*
+/F1 11 Tf
+(    Explanation: The console listens on 8143 for HTTPS access, separate from the ) Tj
+T*
+(    puppetserver's 8140 API port.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(84. How do you upgrade modules managed by r10k?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Update Puppetfile and run `r10k deploy environment -p`) Tj
+T*
+(    B. puppet module install) Tj
+T*
+(    C. puppet upgrade modules) Tj
+T*
+(    D. bolt module upgrade) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: r10k reads the Puppetfile for each environment; updating module versions ) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 478 32.0 Tm
+(Page 18 of 22) Tj
+ET
+endstream
+endobj
+38 0 obj
+<< /Type /Page /Parent 47 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 37 0 R >>
+endobj
+39 0 obj
+<< /Length 2292 >>
+stream
+BT
+1 0 0 1 54 732 Tm
+16 TL
+/F1 11 Tf
+(    and running `r10k deploy` deploys new code to the module path.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(85. What does the `tag` metaparameter do?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Adds labels to resources for selective runs) Tj
+T*
+(    B. Sets environment) Tj
+T*
+(    C. Logs messages) Tj
+T*
+(    D. Schedules run) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Tags allow grouping resources; you can run `puppet agent --tags tagname` to) Tj
+T*
+(     apply only resources with matching tags.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(86. Which log file contains PuppetDB logs?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. /var/log/puppetlabs/puppetdb/puppetdb.log) Tj
+T*
+(    B. /var/log/puppetlabs/puppetserver.log) Tj
+T*
+(    C. /var/log/puppetlabs/console-services.log) Tj
+T*
+(    D. /var/log/puppetlabs/orchestration.log) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: PuppetDB logs, including query processing and errors, are stored under ) Tj
+T*
+(    `/var/log/puppetlabs/puppetdb`.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(87. How do you configure environment cache timeout?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Set `environment_timeout` in puppetserver.conf) Tj
+T*
+(    B. Use puppet.conf setting) Tj
+T*
+(    C. Use console) Tj
+T*
+(    D. Use Hiera) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: `environment_timeout` controls how long environment data is cached; setting) Tj
+T*
+(     it in puppetserver.conf influences code reload frequency.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(88. What is `app_management` setting?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Enables application orchestrator features in Puppet) Tj
+T*
+(    B. Manages packages) Tj
+T*
+(    C. Configures Hiera) Tj
+T*
+(    D. Enables Puppet Enterprise) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: `app_management` turns on application orchestration, allowing Puppet to ) Tj
+T*
+(    manage multi-node application components via application definitions.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(89. Which Puppet resource ensures Windows registry entries?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. registry_key) Tj
+T*
+(    B. dsc) Tj
+T*
+(    C. windows_entry) Tj
+T*
+(    D. win_registry) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 478 32.0 Tm
+(Page 19 of 22) Tj
+ET
+endstream
+endobj
+40 0 obj
+<< /Type /Page /Parent 47 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 39 0 R >>
+endobj
+41 0 obj
+<< /Length 2396 >>
+stream
+BT
+1 0 0 1 54 732 Tm
+16 TL
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: The `registry_key` type \(with nested `registry_value`\) manages Windows ) Tj
+T*
+(    registry entries declaratively within Puppet.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(90. How can you specify custom facts?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Place custom scripts in `/etc/puppetlabs/facter/facts.d` or Ruby in `lib/facter`) Tj
+T*
+(    B. Add in hiera) Tj
+T*
+(    C. Use puppet.conf) Tj
+T*
+(    D. Use bolt) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Custom facts can be implemented via executable scripts in `facts.d` or Ruby) Tj
+T*
+(     files in `lib/facter`, extending the fact set available to manifests.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(91. What is `code_manager` in Puppet Enterprise?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Tool for deploying code across environments integrated with r10k) Tj
+T*
+(    B. Module generator) Tj
+T*
+(    C. Agent manager) Tj
+T*
+(    D. Report viewer) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Code Manager automates module deployment across environments using r10k ) Tj
+T*
+(    under the hood, triggered via APIs or CLI.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(92. Which Puppet feature allows generating multiple resources from data structures?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. `create_resources` function) Tj
+T*
+(    B. loops) Tj
+T*
+(    C. Hiera) Tj
+T*
+(    D. Bolt plans) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: `create_resources` takes a resource type and hash to dynamically generate ) Tj
+T*
+(    multiple resources based on data, enabling data-driven manifests.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(93. What is the purpose of `contain` function?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Enforce class containment to manage resource relationships) Tj
+T*
+(    B. Limit module scope) Tj
+T*
+(    C. Hide variables) Tj
+T*
+(    D. Format strings) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: `contain` ensures a class is contained, meaning its resources are treated ) Tj
+T*
+(    as a single block for relationship management, preventing resource leakage outside ) Tj
+T*
+(    classes.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(94. How do you view documentation for a resource type?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. puppet describe type) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 478 32.0 Tm
+(Page 20 of 22) Tj
+ET
+endstream
+endobj
+42 0 obj
+<< /Type /Page /Parent 47 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 41 0 R >>
+endobj
+43 0 obj
+<< /Length 2324 >>
+stream
+BT
+1 0 0 1 54 732 Tm
+16 TL
+/F1 11 Tf
+(    B. puppet help type) Tj
+T*
+(    C. puppet docs type) Tj
+T*
+(    D. puppet info type) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: `puppet describe <type>` prints documentation and attributes for built-in ) Tj
+T*
+(    resource types, aiding manifest authoring.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(95. Which Puppet command queries node status from PuppetDB?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. puppet query 'nodes[certname]') Tj
+T*
+(    B. puppetdb query) Tj
+T*
+(    C. puppet facts query) Tj
+T*
+(    D. puppet status query) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: `puppet query` runs Puppet Query Language \(PQL\) queries against PuppetDB, ) Tj
+T*
+(    retrieving node lists or resource data.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(96. What is the default file path for Bolt inventory?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. inventory.yaml in project directory) Tj
+T*
+(    B. /etc/bolt/inventory.yaml) Tj
+T*
+(    C. ~/.bolt/inventory.yaml) Tj
+T*
+(    D. config/inventory.yml) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Bolt uses `inventory.yaml` located in the project's root to define targets,) Tj
+T*
+(     groups, and connection details.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(97. How do you create a new Puppet module skeleton?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. puppet module generate author-modulename) Tj
+T*
+(    B. puppet module init modulename) Tj
+T*
+(    C. puppet module create modulename) Tj
+T*
+(    D. puppet forge init modulename) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: `puppet module generate` scaffolds module directories and files, prompting ) Tj
+T*
+(    for metadata and supporting best practices.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(98. What does `puppet resource service ssh ensure=running enable=true` do?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Ensure ssh service is running and enabled) Tj
+T*
+(    B. Display service state) Tj
+T*
+(    C. Disable service) Tj
+T*
+(    D. Restart service only) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Using `puppet resource` with `ensure=running` and `enable=true` enforces ) Tj
+T*
+(    that the service is started and enabled at boot immediately.) Tj
+10 TL
+T*
+( ) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 478 32.0 Tm
+(Page 21 of 22) Tj
+ET
+endstream
+endobj
+44 0 obj
+<< /Type /Page /Parent 47 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 43 0 R >>
+endobj
+45 0 obj
+<< /Length 1002 >>
+stream
+BT
+1 0 0 1 54 732 Tm
+18 TL
+/F2 12 Tf
+(99. Which tool orchestrates change windows in Puppet Enterprise?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Orchestrator service \(via command `puppet job run`\)) Tj
+T*
+(    B. PuppetDB) Tj
+T*
+(    C. Code Manager) Tj
+T*
+(    D. Console only) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Puppet Enterprise Orchestrator executes jobs across nodes during controlled) Tj
+T*
+(     windows, using commands like `puppet job run` to trigger actions.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(100. What is the purpose of `bolt plan new`?) Tj
+16 TL
+T*
+/F1 11 Tf
+(     A. Generate new Bolt plan template) Tj
+T*
+(     B. Create Puppet plan) Tj
+T*
+(     C. Run existing plan) Tj
+T*
+(     D. Install plan) Tj
+T*
+/F2 11 Tf
+(     Answer: A) Tj
+T*
+/F1 11 Tf
+(     Explanation: `bolt plan new` scaffolds a plan file with boilerplate code, making it ) Tj
+T*
+(     easier to start authoring orchestration workflows.) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 478 32.0 Tm
+(Page 22 of 22) Tj
+ET
+endstream
+endobj
+46 0 obj
+<< /Type /Page /Parent 47 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 45 0 R >>
+endobj
+47 0 obj
+<< /Type /Pages /Count 22 /Kids [4 0 R 6 0 R 8 0 R 10 0 R 12 0 R 14 0 R 16 0 R 18 0 R 20 0 R 22 0 R 24 0 R 26 0 R 28 0 R 30 0 R 32 0 R 34 0 R 36 0 R 38 0 R 40 0 R 42 0 R 44 0 R 46 0 R] >>
+endobj
+48 0 obj
+<< /Type /Catalog /Pages 47 0 R >>
+endobj
+xref
+0 49
+0000000000 65535 f 
+0000000015 00000 n 
+0000000085 00000 n 
+0000000160 00000 n 
+0000002479 00000 n 
+0000002616 00000 n 
+0000004880 00000 n 
+0000005017 00000 n 
+0000007240 00000 n 
+0000007377 00000 n 
+0000009790 00000 n 
+0000009928 00000 n 
+0000012208 00000 n 
+0000012347 00000 n 
+0000014716 00000 n 
+0000014855 00000 n 
+0000017192 00000 n 
+0000017331 00000 n 
+0000019828 00000 n 
+0000019967 00000 n 
+0000022217 00000 n 
+0000022356 00000 n 
+0000024710 00000 n 
+0000024849 00000 n 
+0000027243 00000 n 
+0000027382 00000 n 
+0000029717 00000 n 
+0000029856 00000 n 
+0000032238 00000 n 
+0000032377 00000 n 
+0000034760 00000 n 
+0000034899 00000 n 
+0000037244 00000 n 
+0000037383 00000 n 
+0000039611 00000 n 
+0000039750 00000 n 
+0000042176 00000 n 
+0000042315 00000 n 
+0000044614 00000 n 
+0000044753 00000 n 
+0000047098 00000 n 
+0000047237 00000 n 
+0000049686 00000 n 
+0000049825 00000 n 
+0000052202 00000 n 
+0000052341 00000 n 
+0000053396 00000 n 
+0000053535 00000 n 
+0000053739 00000 n 
+trailer
+<< /Size 49 /Root 48 0 R >>
+startxref
+53790
+%%EOF

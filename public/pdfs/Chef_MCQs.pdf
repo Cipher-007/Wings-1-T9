@@ -1,0 +1,2956 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+2 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+3 0 obj
+<< /Length 2208 >>
+stream
+BT
+1 0 0 1 54 732 Tm
+26 TL
+/F2 20 Tf
+(CHEF) Tj
+18 TL
+T*
+/F1 11 Tf
+(--------------------------------------------------------------------------------) Tj
+12 TL
+T*
+( ) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(1. What is the fundamental configuration unit in Chef that describes desired state?) Tj
+16 TL
+T*
+/F1 11 Tf
+(   A. Cookbook) Tj
+T*
+(   B. Recipe) Tj
+T*
+(   C. Role) Tj
+T*
+(   D. Attribute) Tj
+T*
+/F2 11 Tf
+(   Answer: B) Tj
+T*
+/F1 11 Tf
+(   Explanation: Recipes are Ruby files that describe resources and their desired state, ) Tj
+T*
+(   forming the primary executable unit within cookbooks.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(2. Which command uploads a cookbook to the Chef server?) Tj
+16 TL
+T*
+/F1 11 Tf
+(   A. knife cookbook upload <name>) Tj
+T*
+(   B. chef upload cookbook <name>) Tj
+T*
+(   C. knife upload cookbook <name>) Tj
+T*
+(   D. chef-client upload <name>) Tj
+T*
+/F2 11 Tf
+(   Answer: A) Tj
+T*
+/F1 11 Tf
+(   Explanation: `knife cookbook upload` packages and pushes a cookbook from the workstation ) Tj
+T*
+(   to the Chef server so nodes can download it.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(3. Where are node object attributes stored after a Chef client run?) Tj
+16 TL
+T*
+/F1 11 Tf
+(   A. Run-list) Tj
+T*
+(   B. Node object on Chef server) Tj
+T*
+(   C. Policyfile lock) Tj
+T*
+(   D. Cookbook metadata) Tj
+T*
+/F2 11 Tf
+(   Answer: B) Tj
+T*
+/F1 11 Tf
+(   Explanation: After convergence, the node uploads its attributes to the Chef server, ) Tj
+T*
+(   forming the node object used for searches and future runs.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(4. What is the purpose of a run-list in Chef?) Tj
+16 TL
+T*
+/F1 11 Tf
+(   A. Define user permissions) Tj
+T*
+(   B. Specify the order of recipes/roles applied to a node) Tj
+T*
+(   C. Manage data bags) Tj
+T*
+(   D. Configure environment variables) Tj
+T*
+/F2 11 Tf
+(   Answer: B) Tj
+T*
+/F1 11 Tf
+(   Explanation: A run-list dictates which recipes or roles execute and in what order, ) Tj
+T*
+(   guiding the node's convergence process.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(5. Which resource is used to manage packages in Chef across platforms?) Tj
+16 TL
+T*
+/F1 11 Tf
+(   A. execute) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 478 32.0 Tm
+(Page 1 of 22) Tj
+ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 47 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Length 2291 >>
+stream
+BT
+1 0 0 1 54 732 Tm
+16 TL
+/F1 11 Tf
+(   B. package) Tj
+T*
+(   C. yum_package) Tj
+T*
+(   D. apt_package) Tj
+T*
+/F2 11 Tf
+(   Answer: B) Tj
+T*
+/F1 11 Tf
+(   Explanation: The `package` resource abstracts package managers, delegating to platform-) Tj
+T*
+(   specific providers like `apt` or `yum` automatically.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(6. What command tests a cookbook locally using Chef Workstation?) Tj
+16 TL
+T*
+/F1 11 Tf
+(   A. kitchen test) Tj
+T*
+(   B. chef-client --local-mode --runlist) Tj
+T*
+(   C. Both A and B can be used for local tests) Tj
+T*
+(   D. chef verify) Tj
+T*
+/F2 11 Tf
+(   Answer: C) Tj
+T*
+/F1 11 Tf
+(   Explanation: Test Kitchen runs integration tests via drivers, while `chef-client -z` ) Tj
+T*
+(   \(local mode\) applies cookbooks without a server; both validate locally.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(7. Which tool provides infrastructure testing for Chef cookbooks using test suites?) Tj
+16 TL
+T*
+/F1 11 Tf
+(   A. Test Kitchen) Tj
+T*
+(   B. InSpec only) Tj
+T*
+(   C. Chef Automate) Tj
+T*
+(   D. Habitat) Tj
+T*
+/F2 11 Tf
+(   Answer: A) Tj
+T*
+/F1 11 Tf
+(   Explanation: Test Kitchen orchestrates instance creation, convergence, and verification ) Tj
+T*
+(   \(often via InSpec\), forming a standard workflow for cookbook testing.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(8. What is the default location for cookbook metadata file?) Tj
+16 TL
+T*
+/F1 11 Tf
+(   A. metadata.yml) Tj
+T*
+(   B. metadata.rb) Tj
+T*
+(   C. cookbook.json) Tj
+T*
+(   D. config.rb) Tj
+T*
+/F2 11 Tf
+(   Answer: B) Tj
+T*
+/F1 11 Tf
+(   Explanation: `metadata.rb` captures cookbook name, version, dependencies, and supported ) Tj
+T*
+(   platforms, enabling dependency resolution.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(9. How do you override attributes for a node using environments?) Tj
+16 TL
+T*
+/F1 11 Tf
+(   A. Set override_attributes in environment file) Tj
+T*
+(   B. Use default_attributes in roles) Tj
+T*
+(   C. Use normal attributes on node) Tj
+T*
+(   D. Use policyfile) Tj
+T*
+/F2 11 Tf
+(   Answer: A) Tj
+T*
+/F1 11 Tf
+(   Explanation: Environment files can declare `override_attributes`, impacting nodes ) Tj
+T*
+(   assigned to that environment with highest precedence short of force overrides.) Tj
+10 TL
+T*
+( ) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 478 32.0 Tm
+(Page 2 of 22) Tj
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 47 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Length 2089 >>
+stream
+BT
+1 0 0 1 54 732 Tm
+18 TL
+/F2 12 Tf
+(10. Which Chef component stores key-value data accessible to recipes?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Data bags) Tj
+T*
+(    B. Environments) Tj
+T*
+(    C. Roles) Tj
+T*
+(    D. Policies) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Data bags provide JSON-based storage that recipes can load at run time for ) Tj
+T*
+(    configuration or secrets \(often encrypted\).) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(11. What does the `chef-client` command do on a node?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Upload cookbooks) Tj
+T*
+(    B. Apply recipes from run-list to converge system) Tj
+T*
+(    C. Delete node) Tj
+T*
+(    D. Manage roles) Tj
+T*
+/F2 11 Tf
+(    Answer: B) Tj
+T*
+/F1 11 Tf
+(    Explanation: `chef-client` pulls policies, compiles the run-list into a resource ) Tj
+T*
+(    collection, and applies resources to reach desired state.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(12. Which Chef server component authenticates API requests?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Bookshelf) Tj
+T*
+(    B. RabbitMQ) Tj
+T*
+(    C. Erchef \(API server\)) Tj
+T*
+(    D. WebUI) Tj
+T*
+/F2 11 Tf
+(    Answer: C) Tj
+T*
+/F1 11 Tf
+(    Explanation: Erchef handles REST API requests, authenticating clients using signed ) Tj
+T*
+(    headers before handing off to other services.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(13. What is the purpose of `knife bootstrap`?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Upload data bag) Tj
+T*
+(    B. Install and configure chef-client on a new node) Tj
+T*
+(    C. Create cookbook skeleton) Tj
+T*
+(    D. Manage organizations) Tj
+T*
+/F2 11 Tf
+(    Answer: B) Tj
+T*
+/F1 11 Tf
+(    Explanation: `knife bootstrap` SSHs into a machine, installs Chef client, registers it ) Tj
+T*
+(    with the server, and sets the desired run-list.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(14. Which attribute precedence level is highest during a Chef run?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. default) Tj
+T*
+(    B. override) Tj
+T*
+(    C. automatic) Tj
+T*
+(    D. normal) Tj
+T*
+/F2 11 Tf
+(    Answer: C) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 478 32.0 Tm
+(Page 3 of 22) Tj
+ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 47 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 7 0 R >>
+endobj
+9 0 obj
+<< /Length 2314 >>
+stream
+BT
+1 0 0 1 54 732 Tm
+16 TL
+/F1 11 Tf
+(    Explanation: Automatic attributes are collected by Ohai and cannot be overridden by ) Tj
+T*
+(    other levels, representing live system data.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(15. What does a Policyfile lock file contain?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Node credentials) Tj
+T*
+(    B. Locked list of cookbooks and versions to apply) Tj
+T*
+(    C. Environment assignments) Tj
+T*
+(    D. Data bag keys) Tj
+T*
+/F2 11 Tf
+(    Answer: B) Tj
+T*
+/F1 11 Tf
+(    Explanation: `Policyfile.lock.json` records resolved cookbook versions ensuring ) Tj
+T*
+(    deterministic builds when the policy is applied.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(16. How can you generate a new cookbook skeleton?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. chef generate cookbook <name>) Tj
+T*
+(    B. knife cookbook create <name>) Tj
+T*
+(    C. Both commands above) Tj
+T*
+(    D. chef create cookbook <name>) Tj
+T*
+/F2 11 Tf
+(    Answer: C) Tj
+T*
+/F1 11 Tf
+(    Explanation: `chef generate` \(Chef Workstation\) and `knife cookbook create` both ) Tj
+T*
+(    scaffold cookbooks with standard directories.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(17. Which Chef feature allows grouping cookbooks with pinned versions for compliance?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Policyfile) Tj
+T*
+(    B. Role) Tj
+T*
+(    C. Environment) Tj
+T*
+(    D. Data bag) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Policyfiles define a complete run-list and locked cookbook versions, ) Tj
+T*
+(    providing predictable, repeatable deployments.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(18. When writing a recipe, how do you notify another resource to run if change occurs?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. notifies :run, 'resource[name]', :immediately) Tj
+T*
+(    B. notify resource) Tj
+T*
+(    C. after resource) Tj
+T*
+(    D. on_change resource) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Using `notifies` attaches a notification to another resource so it runs ) Tj
+T*
+(    immediately or at end of run when changes happen.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(19. Which testing framework validates infrastructure state defined by Chef?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. InSpec) Tj
+T*
+(    B. Serverspec) Tj
+T*
+(    C. RSpec only) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 478 32.0 Tm
+(Page 4 of 22) Tj
+ET
+endstream
+endobj
+10 0 obj
+<< /Type /Page /Parent 47 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 9 0 R >>
+endobj
+11 0 obj
+<< /Length 2249 >>
+stream
+BT
+1 0 0 1 54 732 Tm
+16 TL
+/F1 11 Tf
+(    D. ChefSpec only) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: InSpec provides compliance and integration tests verifying actual system ) Tj
+T*
+(    state after convergence, complementing ChefSpec unit tests.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(20. What does `chef-client -z` enable?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Daemon mode) Tj
+T*
+(    B. Local mode \(Zero\) without Chef server) Tj
+T*
+(    C. Debug logging) Tj
+T*
+(    D. Zero downtime updates) Tj
+T*
+/F2 11 Tf
+(    Answer: B) Tj
+T*
+/F1 11 Tf
+(    Explanation: Local mode allows running Chef against local cookbooks and policy without ) Tj
+T*
+(    contacting a server, ideal for development.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(21. Which file defines dependencies for a cookbook?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. metadata.rb) Tj
+T*
+(    B. Berksfile) Tj
+T*
+(    C. Policyfile.rb) Tj
+T*
+(    D. All of the above can define dependencies) Tj
+T*
+/F2 11 Tf
+(    Answer: D) Tj
+T*
+/F1 11 Tf
+(    Explanation: `metadata.rb` lists cookbook dependencies, `Berksfile` manages dependency ) Tj
+T*
+(    resolution with Berkshelf, and `Policyfile.rb` specifies included cookbooks.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(22. What is Berkshelf used for?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Managing cookbook dependencies and uploading to Chef server) Tj
+T*
+(    B. Writing recipes) Tj
+T*
+(    C. Creating organizations) Tj
+T*
+(    D. Configuring nodes) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Berkshelf resolves cookbook dependencies, downloads them locally, and can ) Tj
+T*
+(    upload them to the Chef server or package them.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(23. Which resource is best for managing services in Chef?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. execute) Tj
+T*
+(    B. service) Tj
+T*
+(    C. chef_service) Tj
+T*
+(    D. command) Tj
+T*
+/F2 11 Tf
+(    Answer: B) Tj
+T*
+/F1 11 Tf
+(    Explanation: The `service` resource controls service state \(start, stop, enable\) and ) Tj
+T*
+(    chooses the appropriate provider per platform.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(24. What does `ohai` tool do?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Configures cookbooks) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 478 32.0 Tm
+(Page 5 of 22) Tj
+ET
+endstream
+endobj
+12 0 obj
+<< /Type /Page /Parent 47 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 11 0 R >>
+endobj
+13 0 obj
+<< /Length 2403 >>
+stream
+BT
+1 0 0 1 54 732 Tm
+16 TL
+/F1 11 Tf
+(    B. Collects system information \(facts\) for Chef) Tj
+T*
+(    C. Uploads cookbooks) Tj
+T*
+(    D. Runs tests) Tj
+T*
+/F2 11 Tf
+(    Answer: B) Tj
+T*
+/F1 11 Tf
+(    Explanation: Ohai gathers automatic attributes about the node, such as OS, network, and ) Tj
+T*
+(    hardware, which Chef uses during recipes.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(25. What is the default attribute precedence order from lowest to highest?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. default, override, normal, automatic) Tj
+T*
+(    B. default, normal, override, automatic) Tj
+T*
+(    C. normal, default, override, automatic) Tj
+T*
+(    D. automatic, override, normal, default) Tj
+T*
+/F2 11 Tf
+(    Answer: B) Tj
+T*
+/F1 11 Tf
+(    Explanation: Defaults are lowest, normal attributes are set by recipes or nodes, ) Tj
+T*
+(    overrides take precedence, and automatic are highest.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(26. How are cookbook files distributed from Chef server?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Through Bookshelf component) Tj
+T*
+(    B. Through PostgreSQL database) Tj
+T*
+(    C. Through RabbitMQ) Tj
+T*
+(    D. Through Apache only) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Bookshelf stores cookbook artifacts \(files, templates, etc.\) and serves ) Tj
+T*
+(    them to nodes when requested during convergence.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(27. Which CLI command tests a Chef recipe using ChefSpec?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. chef exec rspec) Tj
+T*
+(    B. kitchen verify) Tj
+T*
+(    C. chef verify spec) Tj
+T*
+(    D. rspec spec/) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: `chef exec rspec` runs RSpec-based ChefSpec unit tests within the ) Tj
+T*
+(    ChefDK/Workstation environment ensuring proper dependencies.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(28. How do you run a single recipe when using Policyfiles?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Set run_list in Policyfile.rb) Tj
+T*
+(    B. Use kitchen converge recipe) Tj
+T*
+(    C. Use chef-client -o 'recipe[cookbook::recipe]') Tj
+T*
+(    D. Use knife run recipe) Tj
+T*
+/F2 11 Tf
+(    Answer: C) Tj
+T*
+/F1 11 Tf
+(    Explanation: The `-o` \(override run-list\) flag lets you execute specific recipes such as) Tj
+T*
+(     `recipe[apache::default]` without altering the node's stored run-list.) Tj
+10 TL
+T*
+( ) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 478 32.0 Tm
+(Page 6 of 22) Tj
+ET
+endstream
+endobj
+14 0 obj
+<< /Type /Page /Parent 47 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 13 0 R >>
+endobj
+15 0 obj
+<< /Length 2214 >>
+stream
+BT
+1 0 0 1 54 732 Tm
+18 TL
+/F2 12 Tf
+(29. Which component orchestrates Chef Automate compliance and workflow?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Workflow) Tj
+T*
+(    B. Visibility) Tj
+T*
+(    C. Compliance) Tj
+T*
+(    D. All components integrated) Tj
+T*
+/F2 11 Tf
+(    Answer: D) Tj
+T*
+/F1 11 Tf
+(    Explanation: Chef Automate bundles workflow \(pipeline\), visibility \(analytics\), and ) Tj
+T*
+(    compliance \(InSpec\) into one platform to manage delivery and governance.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(30. What is stored in a data bag item?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. JSON data containing configuration or secrets) Tj
+T*
+(    B. Ruby code for recipes) Tj
+T*
+(    C. Node run-list) Tj
+T*
+(    D. Cookbook dependencies) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Each data bag item is a JSON object stored server-side, accessible by ) Tj
+T*
+(    recipes to fetch configuration values or encrypted secrets.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(31. Which command lists nodes registered with Chef server?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. knife node list) Tj
+T*
+(    B. chef node list) Tj
+T*
+(    C. knife list nodes) Tj
+T*
+(    D. chef-client --nodes) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: `knife node list` queries the Chef server for all registered nodes, useful ) Tj
+T*
+(    for auditing environment membership.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(32. What is the command to view current run-list of a node?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. knife node show NODE -a run_list) Tj
+T*
+(    B. chef node run_list NODE) Tj
+T*
+(    C. knife show run NODE) Tj
+T*
+(    D. chef-client run-list NODE) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: `knife node show` with `-a run_list` fetches just the run-list attribute, ) Tj
+T*
+(    revealing roles and recipes assigned to the node.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(33. Which driver allows Test Kitchen to create instances on AWS?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. kitchen-ec2 driver) Tj
+T*
+(    B. kitchen-aws driver) Tj
+T*
+(    C. kitchen-cloud driver) Tj
+T*
+(    D. kitchen-vagrant driver) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 478 32.0 Tm
+(Page 7 of 22) Tj
+ET
+endstream
+endobj
+16 0 obj
+<< /Type /Page /Parent 47 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 15 0 R >>
+endobj
+17 0 obj
+<< /Length 2380 >>
+stream
+BT
+1 0 0 1 54 732 Tm
+16 TL
+/F1 11 Tf
+(    Explanation: The `kitchen-ec2` driver provisions EC2 instances for testing, letting you ) Tj
+T*
+(    converge cookbooks against real AWS infrastructure.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(34. What is the function of `use_inline_resources` in custom resources \(Chef 12 legacy\)?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Enable notifications and resource tracking within custom LWRPs) Tj
+T*
+(    B. Inline run-list definition) Tj
+T*
+(    C. Run resources concurrently) Tj
+T*
+(    D. Disable notifications) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: In older Lightweight Resources, `use_inline_resources` allowed ) Tj
+T*
+(    notifications to propagate and resources to behave like built-in ones.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(35. How can you enforce specific cookbook versions on nodes?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Pin versions in environment or Policyfile) Tj
+T*
+(    B. Use node attributes) Tj
+T*
+(    C. Use data bag) Tj
+T*
+(    D. Use role defaults) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Setting cookbook version constraints in environments or Policyfiles ) Tj
+T*
+(    prevents accidental upgrades and ensures consistent deployments.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(36. Which command shows cookbook versions on Chef server?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. knife cookbook list) Tj
+T*
+(    B. chef cookbook show) Tj
+T*
+(    C. knife list cookbook versions) Tj
+T*
+(    D. chef-client --cookbooks) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: `knife cookbook list` displays available cookbooks and highest versions ) Tj
+T*
+(    stored on the server.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(37. What is the purpose of `include_recipe`?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Include another recipe within a recipe) Tj
+T*
+(    B. Include environment) Tj
+T*
+(    C. Add data bag) Tj
+T*
+(    D. Add role) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: `include_recipe 'cookbook::recipe'` loads another recipe's resources into ) Tj
+T*
+(    the run context so they execute as part of the current run.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(38. Which Chef resource manages files from ERB templates?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. template) Tj
+T*
+(    B. cookbook_file) Tj
+T*
+(    C. file) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 478 32.0 Tm
+(Page 8 of 22) Tj
+ET
+endstream
+endobj
+18 0 obj
+<< /Type /Page /Parent 47 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 17 0 R >>
+endobj
+19 0 obj
+<< /Length 2324 >>
+stream
+BT
+1 0 0 1 54 732 Tm
+16 TL
+/F1 11 Tf
+(    D. remote_file) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: The `template` resource renders ERB templates, substituting variables and ) Tj
+T*
+(    placing the result on the node.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(39. What does `knife node run_list add` do?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Adds recipe or role to node run-list) Tj
+T*
+(    B. Adds node to environment) Tj
+T*
+(    C. Adds node to organization) Tj
+T*
+(    D. Adds data bag item) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: This command appends items to a node's run-list, altering what Chef applies) Tj
+T*
+(     on the next run.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(40. Which resource ensures a directory exists with specific permissions?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. directory) Tj
+T*
+(    B. file) Tj
+T*
+(    C. cookbook_file) Tj
+T*
+(    D. execute) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: The `directory` resource creates directories and sets owner, group, and ) Tj
+T*
+(    mode, managing recursive creation if specified.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(41. What is `chef-vault` used for?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Encrypt data bag items per node/client) Tj
+T*
+(    B. Manage cookbook versions) Tj
+T*
+(    C. Control node run-lists) Tj
+T*
+(    D. Configure Policyfiles) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Chef Vault encrypts secrets per client, ensuring only authorized nodes can ) Tj
+T*
+(    decrypt the data bag item.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(42. How do you specify environment for a node?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. knife node environment set NODE ENV) Tj
+T*
+(    B. chef-client --environment) Tj
+T*
+(    C. environment assign NODE ENV) Tj
+T*
+(    D. node set environment) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: The `knife node environment set` command updates the node's environment, ) Tj
+T*
+(    which influences attribute overrides and run-lists.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(43. What is the difference between `remote_file` and `cookbook_file` resources?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. remote_file downloads from URL; cookbook_file distributes files bundled in cookbook) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 478 32.0 Tm
+(Page 9 of 22) Tj
+ET
+endstream
+endobj
+20 0 obj
+<< /Type /Page /Parent 47 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 19 0 R >>
+endobj
+21 0 obj
+<< /Length 2390 >>
+stream
+BT
+1 0 0 1 54 732 Tm
+16 TL
+/F1 11 Tf
+(    B. remote_file uploads to server; cookbook_file downloads from server) Tj
+T*
+(    C. remote_file handles templates; cookbook_file handles static files) Tj
+T*
+(    D. No difference) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: `remote_file` fetches content from remote sources, whereas `cookbook_file` ) Tj
+T*
+(    ships files stored within the cookbook's `files` directory.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(44. Which run mode allows a node to execute cookbooks stored locally without Chef server?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Local mode \(chef-client -z\)) Tj
+T*
+(    B. Client mode only) Tj
+T*
+(    C. Solo mode only for Chef Solo) Tj
+T*
+(    D. Offline mode) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Local mode uses the Chef Zero server embedded inside the client, enabling ) Tj
+T*
+(    cookbook execution without a remote server.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(45. What is Chef Solo?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Legacy tool running cookbooks without Chef server using local JSON) Tj
+T*
+(    B. SaaS version of Chef) Tj
+T*
+(    C. Test framework) Tj
+T*
+(    D. Chef Automate module) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Chef Solo was an early way to run cookbooks locally based on node JSON ) Tj
+T*
+(    files; it's largely replaced by local mode and Policyfiles.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(46. Which command packages cookbooks for distribution?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. berks package) Tj
+T*
+(    B. chef package) Tj
+T*
+(    C. knife cookbook pack) Tj
+T*
+(    D. chef-client package) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: `berks package` creates a tarball containing resolved cookbook ) Tj
+T*
+(    dependencies, useful for air-gapped deployments.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(47. How do you test Chef resources using unit tests?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. ChefSpec tests run via RSpec) Tj
+T*
+(    B. InSpec tests run via `inspec exec`) Tj
+T*
+(    C. Serverspec tests run via Ruby) Tj
+T*
+(    D. Kitchen verify only) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: ChefSpec uses RSpec syntax to simulate chef-client runs, validating ) Tj
+T*
+(    resource declarations without affecting systems.) Tj
+10 TL
+T*
+( ) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 478 32.0 Tm
+(Page 10 of 22) Tj
+ET
+endstream
+endobj
+22 0 obj
+<< /Type /Page /Parent 47 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 21 0 R >>
+endobj
+23 0 obj
+<< /Length 2219 >>
+stream
+BT
+1 0 0 1 54 732 Tm
+18 TL
+/F2 12 Tf
+(48. What is a role in Chef?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. JSON or Ruby object defining run-list and default/override attributes for function) Tj
+T*
+(    B. Collection of cookbooks) Tj
+T*
+(    C. Node-specific attribute file) Tj
+T*
+(    D. Environment) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Roles encapsulate run-lists and attribute sets for common server functions ) Tj
+T*
+(    \(e.g., webserver\), applied to nodes to share configurations.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(49. Which command downloads cookbooks from Chef server to local repo?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. knife cookbook download <name>) Tj
+T*
+(    B. chef get cookbook <name>) Tj
+T*
+(    C. knife download cookbook <name>) Tj
+T*
+(    D. chef-client download <name>) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: `knife cookbook download` retrieves cookbooks \(optionally specific ) Tj
+T*
+(    versions\) from the server for inspection or editing.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(50. What does `knife environment from file` do?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Upload environment definition from file to server) Tj
+T*
+(    B. Create environment file locally) Tj
+T*
+(    C. Download environment) Tj
+T*
+(    D. View environment) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(Explanation: This command reads an environment JSON/Ruby file and uploads it, allowing ) Tj
+T*
+(version-controlled environment definitions.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(51. Which Chef client configuration file sets node-specific options?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. client.rb) Tj
+T*
+(    B. knife.rb) Tj
+T*
+(    C. config.rb) Tj
+T*
+(    D. workstation.rb) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Each node uses `/etc/chef/client.rb` \(or similar path\) to define server ) Tj
+T*
+(    URL, validation client, and other node-specific settings for chef-client.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(52. What is the default port for Chef server API?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. 4000) Tj
+T*
+(    B. 443) Tj
+T*
+(    C. 8443) Tj
+T*
+(    D. 8889) Tj
+T*
+/F2 11 Tf
+(    Answer: C) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 478 32.0 Tm
+(Page 11 of 22) Tj
+ET
+endstream
+endobj
+24 0 obj
+<< /Type /Page /Parent 47 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 23 0 R >>
+endobj
+25 0 obj
+<< /Length 2430 >>
+stream
+BT
+1 0 0 1 54 732 Tm
+16 TL
+/F1 11 Tf
+(    Explanation: The Chef server front-end typically listens on 8443 for HTTPS API requests ) Tj
+T*
+(    from knife and chef-client.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(53. Which Chef Automate feature provides visibility dashboards?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Automate Visibility service) Tj
+T*
+(    B. Workflow) Tj
+T*
+(    C. Compliance) Tj
+T*
+(    D. Builder) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: The Visibility component aggregates data and offers dashboards for node ) Tj
+T*
+(    status, runs, and compliance information within Chef Automate.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(54. How do you ensure a resource runs only on specific platform?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Use `only_if { node['platform'] == 'ubuntu' }`) Tj
+T*
+(    B. Use `platform_only`) Tj
+T*
+(    C. Use environment) Tj
+T*
+(    D. Use run-list filter) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Guard clauses like `only_if` and `not_if` check conditions \(such as ) Tj
+T*
+(    platform\) before executing resources, controlling platform-specific behavior.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(55. What is the function of `lazy` attribute evaluation?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Delay evaluation until converge phase for dynamic values) Tj
+T*
+(    B. Slow down Chef run intentionally) Tj
+T*
+(    C. Evaluate attributes asynchronously) Tj
+T*
+(    D. Reduce memory usage) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Wrapping values with `lazy { ... }` defers evaluation until the resource ) Tj
+T*
+(    converges, helpful when values depend on previous resource outcomes.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(56. Which command lists available cookbooks in the current repository?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. knife cookbook list --local) Tj
+T*
+(    B. ls cookbooks/) Tj
+T*
+(    C. berks list) Tj
+T*
+(    D. chef cookbook list local) Tj
+T*
+/F2 11 Tf
+(    Answer: C) Tj
+T*
+/F1 11 Tf
+(    Explanation: `berks list` reads the Berksfile and displays the cookbooks and versions ) Tj
+T*
+(    managed by Berkshelf in the repository.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(57. What is Chef Habitat primarily for?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Building and deploying applications in immutable packages) Tj
+T*
+(    B. Managing Chef server) Tj
+T*
+(    C. Writing cookbooks) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 478 32.0 Tm
+(Page 12 of 22) Tj
+ET
+endstream
+endobj
+26 0 obj
+<< /Type /Page /Parent 47 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 25 0 R >>
+endobj
+27 0 obj
+<< /Length 2278 >>
+stream
+BT
+1 0 0 1 54 732 Tm
+16 TL
+/F1 11 Tf
+(    D. Monitoring nodes) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Habitat packages applications with dependencies and a supervisor, enabling ) Tj
+T*
+(    consistent deployments across environments without relying on Chef client.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(58. How do you disable a resource from running but keep it defined?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. action :nothing) Tj
+T*
+(    B. run_action :skip) Tj
+T*
+(    C. action :disable) Tj
+T*
+(    D. disable true) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: `action :nothing` prevents automatic execution; the resource will only run ) Tj
+T*
+(    if another resource notifies it, making it useful for conditional execution.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(59. Which resource manages cron jobs?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. cron) Tj
+T*
+(    B. schedule) Tj
+T*
+(    C. job) Tj
+T*
+(    D. timer) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: The `cron` resource declares cron entries, ensuring specific commands run ) Tj
+T*
+(    at scheduled times or are removed if no longer needed.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(60. What is the default log level for chef-client?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. info) Tj
+T*
+(    B. debug) Tj
+T*
+(    C. warn) Tj
+T*
+(    D. error) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Chef client logs at the `info` level unless overridden, providing ) Tj
+T*
+(    sufficient detail on resource updates without excessive noise.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(61. Which file stores client key used for authentication?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. /etc/chef/client.pem) Tj
+T*
+(    B. /etc/chef/validator.pem) Tj
+T*
+(    C. ~/.chef/client.pem) Tj
+T*
+(    D. /etc/chef/knife.pem) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: The node's private key resides in `client.pem`, used to sign requests to ) Tj
+T*
+(    the Chef server so the node can authenticate securely.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(62. How do you override resource properties within a wrapper cookbook?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Use resource cloning with `resources` block in Chef 11) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 478 32.0 Tm
+(Page 13 of 22) Tj
+ET
+endstream
+endobj
+28 0 obj
+<< /Type /Page /Parent 47 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 27 0 R >>
+endobj
+29 0 obj
+<< /Length 2421 >>
+stream
+BT
+1 0 0 1 54 732 Tm
+16 TL
+/F1 11 Tf
+(    B. Use custom resources or edit derived recipe attributes) Tj
+T*
+(    C. Modify core resource) Tj
+T*
+(    D. Override in metadata directly) Tj
+T*
+/F2 11 Tf
+(    Answer: B) Tj
+T*
+/F1 11 Tf
+(    Explanation: Wrapper cookbooks set attributes, call custom resources, or override ) Tj
+T*
+(    resource properties inside recipes to adjust behavior without touching upstream ) Tj
+T*
+(    cookbooks.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(63. Which tool integrates pipeline features with Chef?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Chef Automate Workflow) Tj
+T*
+(    B. InSpec) Tj
+T*
+(    C. Test Kitchen) Tj
+T*
+(    D. Knife) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Chef Automate Workflow provides build and deployment pipelines linked to ) Tj
+T*
+(    Chef server, enabling automated promotion through environments.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(64. What is the difference between `notifies` and `subscribes`?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. notifies defined on resource sending notification; subscribes defined on resource ) Tj
+T*
+(    receiving) Tj
+T*
+(    B. notifies is immediate; subscribes is delayed only) Tj
+T*
+(    C. no difference) Tj
+T*
+(    D. subscribes requires synchronous execution) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: `notifies` is called on the notifying resource, while `subscribes` is ) Tj
+T*
+(    declared on the resource responding to changes, giving alternative syntax for linking ) Tj
+T*
+(    resources.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(65. How do you ensure a node uses Policyfile instead of run-list from server?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Run chef-client with policy_name and policy_group) Tj
+T*
+(    B. Set node attribute) Tj
+T*
+(    C. Use environment override) Tj
+T*
+(    D. Use data bag flag) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Policyfile mode relies on specifying `policy_name` and `policy_group` in ) Tj
+T*
+(    client.rb or CLI so the node fetches policy archives rather than environments and roles.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(66. Which command removes a node and client from Chef server?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. knife node delete NODE; knife client delete NODE) Tj
+T*
+(    B. chef delete node NODE) Tj
+T*
+(    C. knife remove NODE) Tj
+T*
+(    D. chef-client delete NODE) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 478 32.0 Tm
+(Page 14 of 22) Tj
+ET
+endstream
+endobj
+30 0 obj
+<< /Type /Page /Parent 47 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 29 0 R >>
+endobj
+31 0 obj
+<< /Length 2518 >>
+stream
+BT
+1 0 0 1 54 732 Tm
+16 TL
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Both the node object and the corresponding API client must be removed to ) Tj
+T*
+(    fully decommission a node and prevent further authentication.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(67. What does `chef-run` command from Chef Workstation do?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Apply ad hoc recipe to target nodes over SSH/WinRM) Tj
+T*
+(    B. Upload cookbooks) Tj
+T*
+(    C. Run policy updates) Tj
+T*
+(    D. Execute Test Kitchen) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: `chef-run` lets you execute short recipes against remote nodes quickly, ) Tj
+T*
+(    useful for one-off tasks without building full cookbooks or modifying run-lists.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(68. Which process ensures cookbooks are safe from accidental modifications in Policyfile?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Policyfile.lock.json capturing exact versions) Tj
+T*
+(    B. Environments locking) Tj
+T*
+(    C. Data bag encryption) Tj
+T*
+(    D. Role locking) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: The lock file records the precise cookbook revisions resolved, so ) Tj
+T*
+(    subsequent runs use the same versions unless the lock is regenerated.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(69. How can you reference attributes within template?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Use `<%= node['attribute'] %>`) Tj
+T*
+(    B. Use `{{ attribute }}`) Tj
+T*
+(    C. Use `%node.attribute%`) Tj
+T*
+(    D. Use `$node.attribute`) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Chef templates leverage ERB, so `node['attr']` embedded in `<%= %>` outputs) Tj
+T*
+(     attribute values into rendered configuration files.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(70. Which command generates an InSpec profile skeleton?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. inspec init profile profile_name) Tj
+T*
+(    B. inspec new profile profile_name) Tj
+T*
+(    C. chef generate inspec profile_name) Tj
+T*
+(    D. kitchen init inspec profile_name) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: `inspec init profile` scaffolds controls, attributes, and metadata to start) Tj
+T*
+(     writing compliance tests quickly.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(71. What is the function of `knife ssl fetch`?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Download SSL certificates from Chef server for trust) Tj
+T*
+(    B. Generate SSL certs for nodes) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 478 32.0 Tm
+(Page 15 of 22) Tj
+ET
+endstream
+endobj
+32 0 obj
+<< /Type /Page /Parent 47 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 31 0 R >>
+endobj
+33 0 obj
+<< /Length 2259 >>
+stream
+BT
+1 0 0 1 54 732 Tm
+16 TL
+/F1 11 Tf
+(    C. Verify SSL handshake) Tj
+T*
+(    D. Install SSL module) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Fetching certificates stores the Chef server's certs locally, preventing ) Tj
+T*
+(    SSL verification failures when using knife or chef-client.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(72. Which resource manages system users?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. user) Tj
+T*
+(    B. account) Tj
+T*
+(    C. login) Tj
+T*
+(    D. passwd) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: The `user` resource handles creation, modification, and removal of ) Tj
+T*
+(    operating system user accounts across supported platforms.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(73. What does setting `why-run` mode do?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Simulate chef-client run showing potential changes) Tj
+T*
+(    B. Improve performance) Tj
+T*
+(    C. Enables debug logging) Tj
+T*
+(    D. Disables converge) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Why-run mode \(dry run\) evaluates resources and reports what actions would ) Tj
+T*
+(    be taken without actually modifying the system.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(74. Which tool integrates security scanning with Chef Automate?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. InSpec compliance profiles) Tj
+T*
+(    B. ChefSpec) Tj
+T*
+(    C. Test Kitchen) Tj
+T*
+(    D. Habitat) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Automate's Compliance service applies InSpec profiles to nodes, producing ) Tj
+T*
+(    continuous security and compliance assessments.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(75. How do you convert a node to use a new Policyfile group?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Update policy_group via `chef-client -P` or `knife node policy set`) Tj
+T*
+(    B. Change environment) Tj
+T*
+(    C. Update role) Tj
+T*
+(    D. Modify data bag) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Policy groups act like deployment rings; switching the group changes which ) Tj
+T*
+(    policy archive the node downloads on its next run.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(76. Which Chef component handles search queries?) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 478 32.0 Tm
+(Page 16 of 22) Tj
+ET
+endstream
+endobj
+34 0 obj
+<< /Type /Page /Parent 47 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 33 0 R >>
+endobj
+35 0 obj
+<< /Length 2279 >>
+stream
+BT
+1 0 0 1 54 732 Tm
+16 TL
+/F1 11 Tf
+(    A. Solr \(via Elasticsearch in newer versions\)) Tj
+T*
+(    B. PostgreSQL) Tj
+T*
+(    C. Bookshelf) Tj
+T*
+(    D. Nginx) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Search functionality is backed by Solr/Elasticsearch, indexing node, role, ) Tj
+T*
+(    and data bag data so recipes and knife can query it.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(77. What is `knife search` used for?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Query objects \(nodes, roles, data bags\) using search syntax) Tj
+T*
+(    B. Search cookbooks locally) Tj
+T*
+(    C. Search logs) Tj
+T*
+(    D. Search pipelines) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: `knife search` taps into Chef Server search indexes, enabling dynamic ) Tj
+T*
+(    discovery of nodes or data bag contents at run time.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(78. What does `policy_group` represent?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Deployment grouping for Policyfiles allowing phased rollout) Tj
+T*
+(    B. Set of environments) Tj
+T*
+(    C. Node cluster) Tj
+T*
+(    D. Role category) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Policy groups allow different cohorts of nodes \(such as dev/prod\) to use ) Tj
+T*
+(    distinct locked policy revisions without maintaining separate Policyfiles.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(79. How can you ensure sensitive data in attributes is not logged?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Set `sensitive true` on resource or `sensitive` attribute) Tj
+T*
+(    B. Use environment) Tj
+T*
+(    C. Use run_list filter) Tj
+T*
+(    D. Use data bag) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Marking resources or individual properties as `sensitive` suppresses them ) Tj
+T*
+(    from log output and diffs, helping protect secrets.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(80. Which resource manages Windows services?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. windows_service) Tj
+T*
+(    B. service with provider windows_service) Tj
+T*
+(    C. Both of the above) Tj
+T*
+(    D. win_service) Tj
+T*
+/F2 11 Tf
+(    Answer: C) Tj
+T*
+/F1 11 Tf
+(    Explanation: Chef provides a Windows-specific resource and a generic `service` provider ) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 478 32.0 Tm
+(Page 17 of 22) Tj
+ET
+endstream
+endobj
+36 0 obj
+<< /Type /Page /Parent 47 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 35 0 R >>
+endobj
+37 0 obj
+<< /Length 2440 >>
+stream
+BT
+1 0 0 1 54 732 Tm
+16 TL
+/F1 11 Tf
+(    capable of managing Windows services, offering flexibility in recipes.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(81. How do you trigger a handler at end of run regardless of changes?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Use `ruby_block` with `notifies` to handler executed unconditionally) Tj
+T*
+(    B. Handlers only run on change; use execute resource to notify always) Tj
+T*
+(    C. Use `delayed_action :always`) Tj
+T*
+(    D. Not possible) Tj
+T*
+/F2 11 Tf
+(    Answer: B) Tj
+T*
+/F1 11 Tf
+(    Explanation: Since handlers fire only when notified, you can use a resource configured ) Tj
+T*
+(    to always report updated \(e.g., `ruby_block` with `action :nothing` triggered manually\) ) Tj
+T*
+(    to force handler execution.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(82. What is Chef Infra Client's default configuration directory on Linux?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. /etc/chef/) Tj
+T*
+(    B. /opt/chef/) Tj
+T*
+(    C. /var/chef/) Tj
+T*
+(    D. /usr/chef/) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Chef client installations place configuration, keys, and trusted ) Tj
+T*
+(    certificates under `/etc/chef` by default on Linux systems.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(83. Which command verifies cookbook style and best practices?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. cookstyle) Tj
+T*
+(    B. foodcritic) Tj
+T*
+(    C. both \(depending on Chef version\)) Tj
+T*
+(    D. chefstyle) Tj
+T*
+/F2 11 Tf
+(    Answer: C) Tj
+T*
+/F1 11 Tf
+(    Explanation: Older workflows used Foodcritic; modern Chef Workstation bundles Cookstyle ) Tj
+T*
+(    \(a RuboCop variant\) for linting cookbooks against style rules.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(84. What is `ChefSpec` primarily used for?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Unit testing Chef cookbooks by simulating chef-client run) Tj
+T*
+(    B. Compliance scanning) Tj
+T*
+(    C. Integration testing) Tj
+T*
+(    D. Policy locking) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: ChefSpec focuses on unit-level testing of resources declared in recipes, ) Tj
+T*
+(    ensuring they are added to the resource collection as expected.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(85. Which resource downloads and extracts remote archives?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. remote_file + execute) Tj
+T*
+(    B. archive_file) Tj
+T*
+(    C. both depending on Chef version) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 478 32.0 Tm
+(Page 18 of 22) Tj
+ET
+endstream
+endobj
+38 0 obj
+<< /Type /Page /Parent 47 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 37 0 R >>
+endobj
+39 0 obj
+<< /Length 2453 >>
+stream
+BT
+1 0 0 1 54 732 Tm
+16 TL
+/F1 11 Tf
+(    D. package) Tj
+T*
+/F2 11 Tf
+(    Answer: C) Tj
+T*
+/F1 11 Tf
+(    Explanation: Newer Chef versions include `archive_file` for direct extraction, while ) Tj
+T*
+(    older approaches combined `remote_file` with `execute` or `bash` resources to unzip/tar.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(86. How can you configure multiple Chef organizations?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Use `knife.rb` with multiple profiles or `knife` config use-profile) Tj
+T*
+(    B. Single organization only) Tj
+T*
+(    C. Use Policyfile) Tj
+T*
+(    D. Use environment mapping) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Knife configuration supports multiple profiles, letting you switch between ) Tj
+T*
+(    organizations or Chef servers via `knife config use-profile PROFILE`.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(87. What does `knife status` display?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Nodes that have checked in recently) Tj
+T*
+(    B. Cookbook status) Tj
+T*
+(    C. Server health) Tj
+T*
+(    D. Policy groups) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: `knife status` shows node last check-in times and names, useful for ) Tj
+T*
+(    monitoring stale systems or verifying run frequency.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(88. In Policyfile, what does `default_source :supermarket` mean?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Pull cookbooks from Chef Supermarket by default) Tj
+T*
+(    B. Use local path) Tj
+T*
+(    C. Use git source) Tj
+T*
+(    D. Use Chef server only) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: `default_source :supermarket` tells Policyfile resolution to fetch ) Tj
+T*
+(    cookbooks from the public Supermarket unless alternative sources are defined.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(89. How do you share a cookbook on Chef Supermarket?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. `knife supermarket share COOKBOOK CATEGORY`) Tj
+T*
+(    B. `chef share cookbook`) Tj
+T*
+(    C. `berks share`) Tj
+T*
+(    D. `chef-client share`) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: The `knife supermarket share` command uploads a packaged cookbook to the ) Tj
+T*
+(    Supermarket, categorizing it for community discovery.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(90. Which Chef resource executes arbitrary Ruby code during convergence?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. ruby_block) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 478 32.0 Tm
+(Page 19 of 22) Tj
+ET
+endstream
+endobj
+40 0 obj
+<< /Type /Page /Parent 47 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 39 0 R >>
+endobj
+41 0 obj
+<< /Length 2040 >>
+stream
+BT
+1 0 0 1 54 732 Tm
+16 TL
+/F1 11 Tf
+(    B. execute) Tj
+T*
+(    C. script) Tj
+T*
+(    D. erb) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: `ruby_block` resources run Ruby code during convergence, useful for custom ) Tj
+T*
+(    logic not covered by existing resources.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(91. What is the role of `knife client create`?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Create API client with key pair on Chef server) Tj
+T*
+(    B. Create new node) Tj
+T*
+(    C. Create cookbook client) Tj
+T*
+(    D. Create environment) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: `knife client create` registers a new API client \(user or node\) and ) Tj
+T*
+(    generates a private key for authenticating to the Chef server.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(92. Which resource handles git operations?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. git) Tj
+T*
+(    B. scm) Tj
+T*
+(    C. repository) Tj
+T*
+(    D. version_control) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: The `git` resource clones repositories, synchronizes revisions, and enables) Tj
+T*
+(     Chef-driven deployment of code stored in Git.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(93. How do you specify default attributes in role file?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. default_attributes\() Tj
+15 TL
+T*
+(         "attribute" => "value") Tj
+T*
+(       \)) Tj
+16 TL
+T*
+(    B. attributes default) Tj
+T*
+(    C. defaults { attribute: value }) Tj
+T*
+(    D. Set in metadata) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: The Ruby DSL for roles uses `default_attributes` and `override_attributes` ) Tj
+T*
+(    blocks to declare attribute hashes applied to nodes.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(94. What does `knife user create` do?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. Create Chef server user with RSA key) Tj
+T*
+(    B. Add system user) Tj
+T*
+(    C. Create node user) Tj
+T*
+(    D. Create data bag user) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 478 32.0 Tm
+(Page 20 of 22) Tj
+ET
+endstream
+endobj
+42 0 obj
+<< /Type /Page /Parent 47 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 41 0 R >>
+endobj
+43 0 obj
+<< /Length 2327 >>
+stream
+BT
+1 0 0 1 54 732 Tm
+16 TL
+/F1 11 Tf
+(    Explanation: Chef server users created with `knife user create` receive private keys ) Tj
+T*
+(    allowing them to use knife or access the server API.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(95. How do you prevent a resource from running on windows platform?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. not_if { platform?\('windows'\) }) Tj
+T*
+(    B. only_if { !platform?\('windows'\) }) Tj
+T*
+(    C. Use guards as above) Tj
+T*
+(    D. All of the above approaches) Tj
+T*
+/F2 11 Tf
+(    Answer: D) Tj
+T*
+/F1 11 Tf
+(    Explanation: Guard clauses with `platform?` let you skip resources based on platform, ) Tj
+T*
+(    and multiple equivalent expressions achieve the same effect.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(96. What is the default `.kitchen.yml` driver when using Test Kitchen with Vagrant ) Tj
+T*
+(installed?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. vagrant) Tj
+T*
+(    B. docker) Tj
+T*
+(    C. ec2) Tj
+T*
+(    D. azurerm) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: Test Kitchen detects Vagrant and defaults to the `vagrant` driver, making ) Tj
+T*
+(    it easy to create local VMs for cookbook testing.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(97. Which resource ensures environment variables are set for future sessions?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. environment resource \(Windows\) or template profile file) Tj
+T*
+(    B. env_file) Tj
+T*
+(    C. config) Tj
+T*
+(    D. profile) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: On Windows the `environment` resource manages persistent environment ) Tj
+T*
+(    variables, while on Unix-like systems you'd manage shell profiles via templates or ) Tj
+T*
+(    files.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(98. How do you list available Policyfile policies on Chef server?) Tj
+16 TL
+T*
+/F1 11 Tf
+(    A. knife list policies) Tj
+T*
+(    B. chef show policies) Tj
+T*
+(    C. knife list policyfiles) Tj
+T*
+(    D. knife list policy groups) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: `knife list policies` enumerates policy names and revisions stored on the ) Tj
+T*
+(    Chef server, helping track available versions.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(99. Which Chef DK/Workstation command verifies environment readiness?) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 478 32.0 Tm
+(Page 21 of 22) Tj
+ET
+endstream
+endobj
+44 0 obj
+<< /Type /Page /Parent 47 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 43 0 R >>
+endobj
+45 0 obj
+<< /Length 901 >>
+stream
+BT
+1 0 0 1 54 732 Tm
+16 TL
+/F1 11 Tf
+(    A. chef verify) Tj
+T*
+(    B. chef status) Tj
+T*
+(    C. chef check) Tj
+T*
+(    D. chef doctor) Tj
+T*
+/F2 11 Tf
+(    Answer: A) Tj
+T*
+/F1 11 Tf
+(    Explanation: `chef verify` runs a suite of checks against workstation components \(knife,) Tj
+T*
+(     Test Kitchen, etc.\) ensuring they are installed and functional.) Tj
+10 TL
+T*
+( ) Tj
+18 TL
+T*
+/F2 12 Tf
+(100. What does `knife deps` do?) Tj
+16 TL
+T*
+/F1 11 Tf
+(     A. Show dependencies for the specified object \(cookbook, role, etc.\)) Tj
+T*
+(     B. Install dependencies) Tj
+T*
+(     C. Delete dependencies) Tj
+T*
+(     D. Upload dependencies) Tj
+T*
+/F2 11 Tf
+(     Answer: A) Tj
+T*
+/F1 11 Tf
+(     Explanation: `knife deps` inspects objects and prints their dependent cookbooks or ) Tj
+T*
+(     roles, aiding in packaging and upload planning.) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 478 32.0 Tm
+(Page 22 of 22) Tj
+ET
+endstream
+endobj
+46 0 obj
+<< /Type /Page /Parent 47 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 45 0 R >>
+endobj
+47 0 obj
+<< /Type /Pages /Count 22 /Kids [4 0 R 6 0 R 8 0 R 10 0 R 12 0 R 14 0 R 16 0 R 18 0 R 20 0 R 22 0 R 24 0 R 26 0 R 28 0 R 30 0 R 32 0 R 34 0 R 36 0 R 38 0 R 40 0 R 42 0 R 44 0 R 46 0 R] >>
+endobj
+48 0 obj
+<< /Type /Catalog /Pages 47 0 R >>
+endobj
+xref
+0 49
+0000000000 65535 f 
+0000000015 00000 n 
+0000000085 00000 n 
+0000000160 00000 n 
+0000002420 00000 n 
+0000002557 00000 n 
+0000004900 00000 n 
+0000005037 00000 n 
+0000007178 00000 n 
+0000007315 00000 n 
+0000009681 00000 n 
+0000009819 00000 n 
+0000012121 00000 n 
+0000012260 00000 n 
+0000014716 00000 n 
+0000014855 00000 n 
+0000017122 00000 n 
+0000017261 00000 n 
+0000019694 00000 n 
+0000019833 00000 n 
+0000022210 00000 n 
+0000022349 00000 n 
+0000024792 00000 n 
+0000024931 00000 n 
+0000027203 00000 n 
+0000027342 00000 n 
+0000029825 00000 n 
+0000029964 00000 n 
+0000032295 00000 n 
+0000032434 00000 n 
+0000034908 00000 n 
+0000035047 00000 n 
+0000037618 00000 n 
+0000037757 00000 n 
+0000040069 00000 n 
+0000040208 00000 n 
+0000042540 00000 n 
+0000042679 00000 n 
+0000045172 00000 n 
+0000045311 00000 n 
+0000047817 00000 n 
+0000047956 00000 n 
+0000050049 00000 n 
+0000050188 00000 n 
+0000052568 00000 n 
+0000052707 00000 n 
+0000053660 00000 n 
+0000053799 00000 n 
+0000054003 00000 n 
+trailer
+<< /Size 49 /Root 48 0 R >>
+startxref
+54054
+%%EOF
